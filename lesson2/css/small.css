@@ -1,0 +1,42 @@
+body {
+    margin: auto;
+    padding: 0;
+    background-color: rgb(155, 245, 182)
+}
+
+header {
+    margin: auto;
+    max-width: 300px;
+
+}
+
+section hr {
+    height: 5px;
+    border: 0;
+    background-color: black;
+}
+
+/* Phone or Baseline Views */
+main {}
+
+h2 {}
+
+main {
+    display: grid;
+    grid-template-columns: [col-1-start] 1fr;
+    font-size: 0.8rem;
+}
+
+main section {}
+
+main picture {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0.1rem;
+
+
+}
+
+.colimage {
+    width: 100%;
+}

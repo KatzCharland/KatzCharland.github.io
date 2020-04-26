@@ -2,16 +2,15 @@
 @media only screen and (min-width: 32.5em) {
 
     main {
-        grid-template-columns: 1fr 1fr;
+       grid-template-columns: 1fr 1fr;
         grid-gap: 60px;
     }
 
-    section:nth-child(3) {
+    section:nth-child(2) {
         grid-template-columns: span 2;
         display: block;
     }
 
-    main picture {}
-
+    
     main section picture img {}
 }

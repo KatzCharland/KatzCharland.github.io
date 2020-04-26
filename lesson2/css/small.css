@@ -18,11 +18,11 @@ section hr {
 }
 
 /* Phone or Baseline Views */
-main {}
 
-h2 {}
+h2 {color: }
 
 main {
+    max-width: 767px;
     display: grid;
     grid-template-columns: [col-1-start] 1fr;
     font-size: 0.8rem;

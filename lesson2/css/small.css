@@ -24,11 +24,11 @@ h2 {color: }
 main {
     max-width: 767px;
     display: grid;
-    grid-template-columns: [col-1-start] 1fr;
+    grid-template-columns: [col-1-start] 1fr 1fr 1fr;
     font-size: 0.8rem;
 }
 
-main section {}
+main section {margin 10px}
 
 main picture {
     margin: 0.5rem;

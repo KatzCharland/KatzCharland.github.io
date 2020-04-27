@@ -28,7 +28,7 @@ main {
     font-size: 0.8rem;
 }
 
-main section {margin 10px}
+main section {margin: 10px};
 
 main picture {
     margin: 0.5rem;

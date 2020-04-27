@@ -1,5 +1,5 @@
 body {
-    margin: auto;
+    margin: 0 auto;
     padding: 0;
      background-color: #f1f9fd;
 }
@@ -19,7 +19,7 @@ section hr {
 
 /* Phone or Baseline Views */
 
-h2 {color: }
+
 
 main {
     max-width: 767px;
@@ -39,5 +39,5 @@ main picture {
 }
 
 .colimage {
-    width: 100%;
+    width: 95%;
 }

@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    text-align: center;
     padding: 0;
     font-size: 16px;
      background-color: #f1f9fd;
@@ -51,6 +52,6 @@ main section {
 
 
 .colimage {
-    width: 95%;
+    width: 110%;
     box-shadow: 0 0 30px;
 }

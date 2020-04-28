@@ -18,7 +18,7 @@ body {
 header {
     background-color: #949BFF;
     max-width: 770px;
-    margin: 15 auto;
+    margin: 40 auto;
     height: 100px;
     text-align: center;
     border-radius: 110px;
@@ -33,7 +33,6 @@ header {
 
 h1 {
     font-family: 'Francois One', sans-serif;
-    margin-left:50px;
     padding-top: 20px;
     text-align: center;
 }

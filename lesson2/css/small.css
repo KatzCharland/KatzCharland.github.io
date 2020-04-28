@@ -1,3 +1,5 @@
+@media screen and (max-width: 500px) {}
+
 body {
     margin: 0 auto;
     text-align: center;
@@ -53,5 +55,7 @@ main section {
 
 .colimage {
     width: 110%;
+    margin: auto;
     box-shadow: 0 0 30px;
 }
+

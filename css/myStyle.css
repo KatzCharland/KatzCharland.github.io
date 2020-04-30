@@ -20,7 +20,7 @@ header {
     max-width: 770px;
     margin: 40 auto;
     height: 100px;
-    text-align: center;
+    justify-content: space-between;
     border-radius: 110px;
     -moz-border-radius: 110px;
     -webkit-border-radius: 110px;

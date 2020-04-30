@@ -25,20 +25,22 @@ section hr {
 /* Phone or Baseline Views */
 
 main {
-    /* max-width: 767px;*/
+    max-width: 767px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-     margin: 0 auto;
+    
 }
 
- section {
+section {
     margin: 0.5rem;
 
-    padding: 0.1rem;}
+    padding: 0.1rem;
+}
 
 
 
 .colimage {
-   max-width: 300;
+    max-width: 300;
     box-shadow: 0 0 30px;
 }

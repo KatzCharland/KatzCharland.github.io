@@ -32,10 +32,15 @@ main {
     
 }
 
-section {
+main section {
     margin: 0.5rem;
 
     padding: 0.1rem;
+}
+
+section:nth-child(2) {
+    display: none;
+    margin: 0.5rem;
 }
 
 

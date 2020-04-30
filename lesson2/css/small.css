@@ -10,8 +10,7 @@ header {
     background-color: #949BFF;
     color: black;
     justify-content: space-between;
-    /*margin: 0 auto*/
-    ;
+    margin: 0 auto;
     max-width: 300px;
 
 }
@@ -46,6 +45,6 @@ section:nth-child(2) {
 
 
 .colimage {
-    max-width: 300;
+   
     box-shadow: 0 0 30px;
 }

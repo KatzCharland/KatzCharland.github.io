@@ -1,29 +1,18 @@
 /* Tablet views */
 @media only screen and (min-width: 32.5em) {
-   /* .profile {
-        width: 200px;
-        float: right;
-    }*/
-}
+
+
+
+    #mainContent {
+        padding: 10px;
+        padding-left: 200px;
+    }
 
     main {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 60px;
+        font-size: 0.8rem;
     }
 
-    section:nth-child(3) {
-        grid-template-columns: span 2
-        display block;
-    }
 
-    /*section:nth-child(3) {
-        grid-template-columns: span 2;
-    }*/
-  
-   
-    .colimage {
-        width: 100%;
-        height: auto;
-        border: 1px solid #bbb;
-        display: block;
-    }
+}

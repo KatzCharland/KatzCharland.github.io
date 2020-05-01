@@ -45,6 +45,6 @@ section:nth-child(2) {
 
 
 .colimage {
-   
+ width: 100%;  
     box-shadow: 0 0 30px;
 }

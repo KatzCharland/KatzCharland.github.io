@@ -1,29 +1,29 @@
 /* Tablet views */
-@media only screen and (min-width: 480px) {
-    .profile {
+@media only screen and (min-width: 32.5em) {
+   /* .profile {
         width: 200px;
         float: right;
-    }
+    }*/
 }
 
     main {
         grid-template-columns: 1fr 1fr;
-        /* grid-gap: 60px;*/
-    }
-
-    section:nth-child(2) {
-        display: block;
+        grid-gap: 60px;
     }
 
     section:nth-child(3) {
+        grid-template-columns: span 2
+        display block;
+    }
+
+    /*section:nth-child(3) {
         grid-template-columns: span 2;
-    }
-    main picture {
-        display: block;
-    }
+    }*/
+  
    
-    main section picture img {
+    .colimage {
         width: 100%;
         height: auto;
         border: 1px solid #bbb;
+        display: block;
     }

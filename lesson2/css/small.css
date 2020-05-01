@@ -9,11 +9,16 @@ body {
 header {
     background-color: #949BFF;
     color: black;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 300px;
-
+    margin: 40 auto;
+    height: 100px;
+    max-width: 770x;
+    text-align: center;
+    border-radius: 110px;
+    -moz-border-radius: 110px;
+    -webkit-border-radius: 110px
 }
+   
+
 
 section hr {
     height: 5px;
@@ -48,3 +53,15 @@ section:nth-child(2) {
  width: 100%;  
     box-shadow: 0 0 30px;
 }
+
+footer {
+    background-color: #949BFF;
+    max-width: 770px;
+    height: 80px;
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    border-radius: 110px;
+    -moz-border-radius: 110px;
+    -webkit-border-radius: 110px;
+}
+    

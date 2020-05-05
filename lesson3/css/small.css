@@ -1,0 +1,98 @@
+header,
+
+<nav><ul><li><a href="index.html">Home</a></li><li><a href="colorScheme.html">Color Scheme</a></li><li><a href="targetAudience.html">Target Audience</a></li><li><a href="typography.html">Typography</a></li></ul></nav>footer {
+    text-align: center;
+    background-color: rgb(14, 190, 152);
+    color: white;
+    padding: 0.5em;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: rgba(150, 151, 151, 0.781);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*nav li {
+    float: left;
+}*/
+nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em 2em 0.5em 2em;
+    color: white;
+    font-family: 'Francois One';
+}
+
+nav li a:hover {
+    background-color: rgb(184, 182, 182);
+    color: black;
+}
+
+main {
+    background-color: rgb(233, 231, 231);
+    padding: 1em
+}
+
+#Home {
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: .25em;
+}
+
+.SubPage {
+    font-family: 'Francois One', sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0em;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(190, 85, 14);
+    margin-bottom: 0;
+}
+
+hr {
+    margin-top: .25em;
+}
+
+p,
+footer {
+    font-family: 'Francois One', sans-serif;
+}
+
+footer a {
+    color: white;
+}
+
+#colorSwatch {
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+
+/* targetAudience/color scheme only */
+h4,
+.personas,
+#scenarios,
+#colorScheme,
+main li {
+    font-family: 'PlayFair Display', sans-serif;
+}

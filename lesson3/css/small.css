@@ -1,6 +1,6 @@
 header {}
 
-<nav>
+<nav> {
 <ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="colorScheme.html">Color Scheme</a></li>
@@ -8,10 +8,11 @@ header {}
 <li><a href="typography.html">Typography</a></li>
 </ul>
 </nav>
+}
 
 footer {
     text-align: center;
-    background-color: rgb(14, 190, 152);
+    background-color: rgb(119, 113, 113);
     color: white;
     padding: 0.5em;
 }
@@ -22,7 +23,7 @@ body {
 }
 
 nav {
-    background-color: rgba(150, 151, 151, 0.781);
+    background-color: rgba(119, 113, 113);
 }
 
 nav ul {
@@ -104,4 +105,14 @@ h4,
 #colorScheme,
 main li {
     font-family: 'PlayFair Display', sans-serif;
+}
+
+#logo {
+    display: block;
+    border-radius: 12px;
+    max-width: 90%;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid rgb(28, 165, 189);
 }

@@ -1,5 +1,15 @@
-header {}
+header {
+    #logo {
+        display: grid;
+        border-radius: 12px;
+        max-width: 90%;
+        height: 60px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border: 2px solid rgb(28, 165, 189);
+    }
 
+}
 <nav> {
 <ul>
 <li><a href="index.html">Home</a></li>
@@ -107,12 +117,3 @@ main li {
     font-family: 'PlayFair Display', sans-serif;
 }
 
-#logo {
-    display: block;
-    border-radius: 12px;
-    max-width: 90%;
-    height: 60px;
-    margin-left: 10px;
-    margin-top: 10px;
-    border: 2px solid rgb(28, 165, 189);
-}

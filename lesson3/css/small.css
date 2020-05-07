@@ -1,31 +1,33 @@
-header {
-    #logo {
-        display: grid;
-        border-radius: 12px;
-        max-width: 90%;
-        height: 60px;
-        margin-left: 10px;
-        margin-top: 10px;
-        border: 2px solid rgb(28, 165, 189);
-    }
-
+#title {
+    font-size: 2em;
+    color: white;
+    margin-left: 10px;
 }
-<nav> {
+    .logo  {
+       border-radius: 12px;
+       max-width: 90%;
+       height: 60px;
+       margin-left: 10px;
+       margin-top: 10px;
+       border: 2px solid rgb(28, 165, 189);
+    }
+header {
+ justify-content: space-between;
+ margin: 0 auto;
+}
+
+
+nav {
 <ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="colorScheme.html">Color Scheme</a></li>
 <li><a href="targetAudience.html">Target Audience</a></li>
 <li><a href="typography.html">Typography</a></li>
 </ul>
-</nav>
 }
 
-footer {
-    text-align: center;
-    background-color: rgb(119, 113, 113);
-    color: white;
-    padding: 0.5em;
-}
+
+
 
 body {
     max-width: 900px;
@@ -47,7 +49,7 @@ nav ul {
     float: left;
 }*/
 nav li a {
-    display: block;
+    display: grid;
     text-decoration: none;
     text-align: center;
     padding: 0.5em 2em 0.5em 2em;
@@ -117,3 +119,9 @@ main li {
     font-family: 'PlayFair Display', sans-serif;
 }
 
+footer {
+    text-align: center;
+    background-color: rgb(119, 113, 113);
+    color: white;
+    padding: 0.5em;
+}

@@ -1,1 +1,9 @@
-@media only screen and (min-width: 64em) {}
+@media only screen and (min-width: 64em) {
+     main {
+         display: grid;
+         max-width: 767px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+
+}

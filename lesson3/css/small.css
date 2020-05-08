@@ -113,8 +113,8 @@ footer a {
 /* targetAudience/color scheme only */
 h4,
 .personas,
-#scenarios,
-#colorScheme,
+.scenarios,
+.colorScheme,
 main li {
     font-family: 'PlayFair Display', sans-serif;
 }

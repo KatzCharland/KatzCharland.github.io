@@ -1,92 +1,127 @@
-#title {
-    font-size: 2em;
-    color: white;
-    margin-left: 10px;
+ #title {
+     font-size: 2em;
+     color: white;
+     margin-left: 10px;
+ }
+
+ .logo {
+     border-radius: 12px;
+     max-width: 90%;
+     height: 60px;
+     margin-left: 10px;
+     margin-top: 10px;
+
+ }
+
+ header {
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     max-width: 770px;
+     margin: 80 auto;
+     height: 100px;
+     border-radius: 110px;
+     -moz-border-radius: 110px;
+     -webkit-border-radius: 110px;
+     }
+    
+
+ nav {
+    
+     background-color: rgba(119, 113, 113);
+     text-align: center;
+  
+ }
+
+.navigation {
+    list-style-type: none;
+    margin: 0 
 }
 
-.logo {
-    border-radius: 12px;
-    max-width: 90%;
-    height: 60px;
-    margin-left: 10px;
-    margin-top: 10px;
-    border: 2px solid rgb(28, 165, 189);
-}
 
+ }
+
+ nav {
+     ;
+ }
+
+ nav ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+
+ /*nav li {
+    float: left;
+}*/
+ nav li a {
+     display: grid;
+     text-decoration: none;
+     text-align: center;
+     padding: 0.5em 2em 0.5em 2em;
+     color: white;
+     font-family: 'Francois One';
+ }
+
+ nav li a:hover {
+     background-color: rgb(184, 182, 182);
+     color: black;
+ }
+
+ main {
+     background-color: rgb(233, 231, 231);
+     padding: 1em
+ }
+
+ #Home {
+     font-family: 'Francois One', sans-serif;
+     font-size: 40px;
+     letter-spacing: 1px;
+     margin-bottom: .25em;
+ }
+
+ .SubPage {
+     font-family: 'Francois One', sans-serif;
+     font-size: 40px;
+ }
+
+ h3 {
+     font-family: 'Montserrat', sans-serif;
+     margin-top: 0em;
+     font-weight: lighter;
+ }
+
+ h2 {
+     font-family: 'Montserrat', sans-serif;
+     color: rgb(190, 85, 14);
+     margin-bottom: 0;
+ }
+
+ hr {
+     margin-top: .25em;
+ }
+
+ p,
+ footer {
+     font-family: 'Francois One', sans-serif;
+ }
+
+ footer a {
+     color: white;
+ }
+
+
+
+ footer {
+     text-align: center;
+     background-color: rgb(119, 113, 113);
+     color: white;
+     padding: 0.5em
+     border-radius: 110px;
+     -moz-border-radius: 110px;
+     -webkit-border-radius: 110px;
+ }
 body {
-    background-color: rgb(224, 224, 224);
-}
-
-header,
-footer {
-    background-color: rgb(14, 190, 152);
-}
-
-header {
-    display: flex;
-    align-content: center;
-    background-color: rgb(14, 190, 152);
-}
-
-
-header div {
-    text-align: center;
-    padding-top: 1rem;
-    padding-right: 0.5rem;
-}
-
-header div h1,
-header div section {
-    margin: 0.1rem;
-
-    color: rgb(190, 85, 14)
-}
-
-/* Style the navigation menu */
-.topnav {
-    overflow: hidden;
-    background-color: #939995;
-    position: relative;
-    display: flex;
-
-
-
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-    display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-
-
-}
-
-/* Style the hamburger menu */
-.topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-
-}
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-    background-color: #5b5e5b;
-    color: white;
-}
+    max-width: 900px;
+    margin: 0 auto;

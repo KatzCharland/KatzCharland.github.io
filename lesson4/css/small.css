@@ -56,13 +56,15 @@
      display: flex;
  }
 
- .navigation li: first-child {
-     display: block;
-     text-decoration: none;
- }
+
 
  nav {
      background-color: rgba(119, 113, 113);
+ } 
+ 
+ .navigation li: first-child {
+     display: block;
+     text-decoration: none;
  }
 
  nav li a {

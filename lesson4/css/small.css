@@ -54,26 +54,34 @@
      background-color: #939995;
      position: relative;
      display: flex;
+     width: 100%; 
  }
 
 
 
  nav {
      background-color: rgba(119, 113, 113);
+    
  } 
  
- .navigation li: first-child {
+ .navigation li:nth-child(1) {
      display: block;
      text-decoration: none;
+     width: 100%;
+ }
+ 
+ .navigation li {
+     display: none;
  }
 
  nav li a {
      display: block;
      text-decoration: none;
      text-align: center;
-     padding: 0.5em 2em 0.5em 2em;
+
      color: black;
      font-family: 'Francois One';
+     
  }
 
  nav li a:hover {
@@ -85,7 +93,7 @@
 
 
  /* Style navigation menu links */
- .nav a {
+ nav a {
      color: white;
      padding: 14px 16px;
      text-decoration: none;
@@ -105,15 +113,16 @@
 
  }
 
- ham {
+ .ham {
      margin: .2rem 2%;
      background-color: transparent;
      border: none;
      font-size: 1.6rem;
      color: white;
  }
-
-
+ .responsive li {
+     display: block;
+ }
 
 
 
@@ -123,23 +132,6 @@
      color: black;
  }
 
- toggleMenu {
-     position: relative;
-     diplay: flex;
-     justify-content: center;
-     align-items: center;
-     width: 80px;
-
-
- }
-
- responsive li {
-     display: block;
- }
-
- responsiveClose li {
-     display: none;
- }
 
 
 
@@ -153,4 +145,10 @@
 
  ul {
      list-style-type: none;
+     width: 100%;
+     padding: 0;
+    
+ }
+ body {
+     background-color: rgb(193, 184, 184);
  }

@@ -3,7 +3,7 @@
         display: flex;
         justify-content: center;
     }
- }
+ 
 
   .nav {
       overflow: hidden;
@@ -13,17 +13,22 @@
 
   }
 
- .navigation li: first-child {
+ .navigation li:nth-child(1) {
      display: none;
-     text-decoration: none;
- } 
+     
+ }
+
+ .navigation li {
+     display: block;
+ }
+
 
   /* Style navigation menu links */
   .nav a {
       color: white;
-      padding: 14px 16px;
+      padding: 5px 5px;
       text-decoration: none;
-      font-size: 17px;
+      font-size: 12px;
       display: block;
 
 

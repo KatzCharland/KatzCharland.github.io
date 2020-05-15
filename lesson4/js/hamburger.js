@@ -1,3 +1,3 @@
-function toggleMenu () {
-document.getElementsByClassName("navigation")[ 0].classlist.toggleMenu ('responsive');
+function toggleMenu() {
+document.getElementsByClassName("navigation")[0].classList.toggle('responsive');
 }

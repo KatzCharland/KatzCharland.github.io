@@ -13,8 +13,10 @@
 
   }
 
- 
- 
+ .navigation li: first-child {
+     display: none;
+     text-decoration: none;
+ } 
 
   /* Style navigation menu links */
   .nav a {

@@ -50,3 +50,37 @@
         color: black;
     }
 }
+
+.cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.col-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   
+}
+
+.forecast {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(190, 94, 66);
+}
+
+.flex-col {
+    display: flex;
+    background-color: rgb(190, 94, 66);
+    padding: 5px;
+}
+.hero {
+    margin: 10px auto;
+    position: relative;
+    
+
+}

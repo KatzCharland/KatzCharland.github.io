@@ -20,9 +20,8 @@
 .weather-summary {
   box-sizing: border-box;
   width: 300px;
-  height: 300px;
   padding: 30px;
-  border: 1px solid rgb(190, 85, 14);
+  border: 1px solid rgba(190, 85, 14,0.3);
   align-content: left;
   background-color: rgb(182, 227, 227,02);
 
@@ -82,14 +81,10 @@ header div section {
     float: right;
     position: relative;
     border-radius: 15px;
-    border: black;
+    border: rgb(0, 0, 0);
     background-color: rgba(190, 94, 66,0.3);
 
 }
-
-
-
-
 
 .content {
     display: block;

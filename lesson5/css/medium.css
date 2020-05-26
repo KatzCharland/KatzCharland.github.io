@@ -1,7 +1,7 @@
 @media only screen and (min-width: 32.5em) {
     nav ul {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
 
 
@@ -66,8 +66,7 @@
 }
 
 .forecast {
-    display: flex;
-    flex-wrap: wrap;
+    
     text-align: center;
     padding: 5px;
     box-shadow: 0 0 10px rgba(190, 94, 66,0.3);
@@ -75,6 +74,7 @@
 
 .flex-col {
     display: flex;
+    justify-content: space-around;
     background-color: rgba(29, 107, 225, 0.1);
     padding: 5px;
 }
@@ -83,4 +83,7 @@
     position: relative;
     
 
+}
+img.artpic {
+    float: right;
 }

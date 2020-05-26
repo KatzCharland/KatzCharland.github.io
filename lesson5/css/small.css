@@ -1,11 +1,3 @@
-.hero-image{
-    margin: 10px auto;
-    width: 100%;
-    height: 370px;
-    padding: 5px, 25px, 5px, 25px;
-   
-
-}
 
 
 .summary-scenerios {
@@ -38,10 +30,7 @@
     height: 370px;
     padding: 5px,25px,5px,25px;
    
-   
 }
-
-
 header,
 footer {
     background-color: #949BFF;

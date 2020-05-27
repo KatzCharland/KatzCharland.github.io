@@ -22,7 +22,8 @@
 
 
 .heroimage {
-  width:100%;  
+  width:100%;
+  height: auto;  
    
 
 }
@@ -215,6 +216,16 @@ color: #949BFF;
 .contact_info {
     display: block;
     text-align: center;
+
+}
+
+.address {
+    padding: 20px;
+}
+
+.map {
+    width: 100%;
+    height: auto;
 }
 
 .wicon {

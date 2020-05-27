@@ -6,9 +6,9 @@
        border-radius: 20px;
        box-shadow: 0 0 15px rgb(190, 85, 14);
        margin-top: -382px;
-       background: #ffffff5e
-   
-   
+       background: #ffffff5e;
+       max-height: 300px;
+   }
    
    
     nav ul {
@@ -97,14 +97,60 @@
 
 }
 
-img.artpic {
+.artpic {
     display: flex;
     float: right;
-    width:100%;
+    max-width: 200px;
     height: auto;
 }
+
+
 .contactInfo {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+
+.contact_info {
+    display: block;
+    text-align: center;
+
+
+}
+
+.address {
+    padding: 20px;
+
+}
+
+.address p {
+    margin: 0;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+}
+
+.wicon {
+    width: 121;
+    height: 170;
+}
+
+.forecast {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

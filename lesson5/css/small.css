@@ -8,6 +8,7 @@
     background: #ffffff5e;
 
 
+
 }
 
 .weather-summary {
@@ -213,7 +214,7 @@ color: #949BFF;
 
 }
 
-.contact_info {
+.contactInfo {
     display: block;
     text-align: center;
     
@@ -231,6 +232,7 @@ color: #949BFF;
 .map {
     width: 100%;
     height: auto;
+    padding: 20px;
 }
 
 .wicon {

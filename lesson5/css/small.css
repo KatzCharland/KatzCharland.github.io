@@ -1,19 +1,19 @@
 .summary-scenerios {
     position: absolute;
-    margin-bottom: 50px;
+    font-size: .75em;
+    width: 150px;
     border: 1px solid lightblue;
     border-radius: 20px;
     box-shadow: 0 0 15px rgb(190, 85, 14);
-    bottom: 25px;
+    bottom: 30%;
     background: #ffffff5e;
 
 
 
 }
 
-.weather-summary {
-    box-sizing: border-box;
-    width: 300px;
+.weather-summary {  
+    box-sizing: border-box; 
     padding: 30px;
     border: 1px solid rgba(190, 85, 14, 0.3);
     align-content: left;
@@ -28,7 +28,7 @@
    
 }
 .hero{
-    width 95%;
+    width: 95%;
     margin: auto;
     position: relative;
 }

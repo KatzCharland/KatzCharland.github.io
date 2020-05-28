@@ -138,9 +138,28 @@
 }
 
 .forecast {
-    display: none;
-}
+display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ }
 
+ .clan {
+     grid-column: 1
+ }
+
+ .forecast2 {
+     grid-column: 2
+ }
+
+ .forecast3 {
+     grid-column: 3
+ }
+
+ .forecast4 {
+     grid-column: 4
+ }
+
+ .forecast5 {
+     grid-column: 5
 
 
 

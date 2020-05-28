@@ -23,15 +23,12 @@
 
 
 .heroimage {
-  width:100%;
-  height: auto;  
-   
+    width: 100%;
+    height: auto;
+
+
 }
-.hero{
-    width 95%;
-    margin: auto;
-    position: relative;
-}
+
 header,
 footer {
     background-color: #949BFF;
@@ -211,25 +208,26 @@ body {
 }
 
 #pancakes {
-padding: 20px 0 20px 0; 
-background-color: rgba(160, 160, 55, 0.653);
-color: #949BFF;
+    padding: 20px 0 20px 0;
+    background-color: rgba(160, 160, 55, 0.653);
+    color: #949BFF;
 
 }
 
 .contactInfo {
     display: block;
     text-align: center;
-    
+
 
 }
 
 .address {
     padding: 20px;
-   
+
 }
+
 .address p {
-     margin: 0;
+    margin: 0;
 }
 
 .map {

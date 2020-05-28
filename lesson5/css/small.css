@@ -5,9 +5,10 @@
     border: 1px solid lightblue;
     border-radius: 20px;
     box-shadow: 0 0 15px rgb(190, 85, 14);
-    bottom: 30%;
+    bottom: 7%;
     background: #ffffff5e;
-
+    padding: 20px;
+    margin: 0 0 50px 40px;
 
 
 }
@@ -73,12 +74,13 @@ header div section {
 
 .articleimg {
     width: 25%;
+    height: auto;
     float: right;
     position: relative;
     border-radius: 15px;
     border: rgb(0, 0, 0);
     background-color: rgba(190, 94, 66, 0.3);
-
+    bottom: 30px;
 }
 
 .content {

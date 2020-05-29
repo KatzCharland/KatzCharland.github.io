@@ -17,6 +17,7 @@
     border-radius: 20px;
     box-shadow: 0 0 15px rgb(190, 85, 14);
     top: 15px;
+    max-height: 300px;
     background: #ffffff5e; 
     font-size: .75em;
 
@@ -25,7 +26,16 @@
 }
 
 
-
+  .summary-scenerios {
+      position: absolute;
+      margin: 0 0 50px 20px;
+      border: 1px solid lightblue;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgb(190, 85, 14);
+      margin-top: -382px;
+      background: #ffffff5e;
+      max-height: 300px;
+      padding: 0 0 0 10px
 
 header,
 footer {

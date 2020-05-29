@@ -2,7 +2,7 @@
     width: 95%;
     margin: auto;
     position: relative;
-
+}
 .heroimage {
     width: 100%;
     height: auto;
@@ -17,6 +17,7 @@
     border-radius: 20px;
     box-shadow: 0 0 15px rgb(190, 85, 14);
     top: 15px;
+    left: 15px;
     max-height: 300px;
     background: #ffffff5e; 
     font-size: .75em;

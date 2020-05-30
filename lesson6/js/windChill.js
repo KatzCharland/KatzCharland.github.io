@@ -1,13 +1,13 @@
 (function () {
-    const hightemp = document.getElementById('hightemp').innerHTML;
-    const windspeed = document.getElementById('windspeed').innerHTML;
-    let windchill = 35.74 + (0.6215 * hightemp) - (35.75 * (windspeed ** .16)) + (0.4275 * hightemp * (windspeed ** .16));
+    const high = document.getElementById('high').innerHTML;
+    const windSpeed = document.getElementById('windspeed').innerHTML;
+    let windChill = 35.74 + (0.6215 * high) - (35.75 * (windSpeed ** .16)) + (0.4275 * high * (windSpeed ** .16));
 
 
-    if (hightemp <= 50 && windspeed > 3) {
-        windchill = Math.round(windchill);
+    if (high <= 50 && windSpeed > 3) {
+        windChill = Math.round(windChill);
     } else {
-        windchill = "NA";
+        windChill = "NA";
     }
-    document.getElementById('windchill').innerHTML = windchill;
+    document.getElementById('windChill').innerHTML = windChill;
 }());

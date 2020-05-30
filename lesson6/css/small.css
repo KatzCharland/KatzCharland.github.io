@@ -1,35 +1,33 @@
-.summary-scenerios {
-    position: absolute;
-    margin-bottom: 50px;
-    border: 1px solid lightblue;
-    border-radius: 20px;
-    box-shadow: 0 0 15px rgb(190, 85, 14);
-    bottom: 25px;
-    background: #ffffff5e;
-    line-height: 10px;
-    font-size: .75em;
-
-
-
+.hero {
+    width: 95%;
+    margin: auto;
+    position: relative;
 }
-
-.weather-summary {
-    box-sizing: border-box;
-    width: 300px;
-    padding: 30px;
-    border: 1px solid rgba(190, 85, 14, 0.3);
-    align-content: left;
-    background-color: rgb(182, 227, 227, 02);
-
-}
-
 
 .heroimage {
     width: 100%;
     height: auto;
 
+}
+
+.summary-scenerios {
+    position: absolute;
+    font-size: .75em;
+    width: 150px;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(190, 85, 14);
+    top: 15px;
+    left: 15px;
+    max-height: 300px;
+    background: #ffffff5e;
+    font-size: .75em;
+
 
 }
+
+
+
 
 header,
 footer {
@@ -55,7 +53,6 @@ h2 {
     border-radius: 12px;
 }
 
-
 #header div h1,
 header div section {
     max-width: 770px;
@@ -71,12 +68,13 @@ header div section {
 
 .articleimg {
     width: 25%;
+    height: auto;
     float: right;
     position: relative;
     border-radius: 15px;
     border: rgb(0, 0, 0);
     background-color: rgba(190, 94, 66, 0.3);
-
+    bottom: 30px;
 }
 
 .content {
@@ -211,8 +209,8 @@ body {
 
 #pancakes {
     padding: 20px 0 20px 0;
-    background-color: rgba(160, 160, 55, 0.653);
-    color: #949BFF;
+    background-color: rgba(190, 85, 14, 0.5);
+    color: rgb(4, 13, 145);
 
 }
 

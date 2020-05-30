@@ -102,7 +102,7 @@
     }
 
     .hero {
-        display:
+        display: block;
          margin: auto;
         position: relative;
     }

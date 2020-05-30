@@ -26,6 +26,10 @@
 
 }
 
+.summary-scenerios {
+    margin: 0;
+}
+
 picture img {
     width: 100%;
     height: auto; 

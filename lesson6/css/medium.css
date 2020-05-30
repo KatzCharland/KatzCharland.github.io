@@ -1,16 +1,20 @@
 @media only screen and (min-width: 32.5em) {
-    .summary-scenerios {
-        position: absolute;
-        margin: 0 0 50px 20px;
-        border: 1px solid lightblue;
-        border-radius: 20px;
-        box-shadow: 0 0 15px rgb(190, 85, 14);
-        background: #ffffff5e;
-        max-height: 300px;
-        padding: 0 0 0 10px;
+   
+  
 
-    }
+     .summary-scenerios {
+         position: absolute;
+         margin: 0 0 50px 20px;
+         border: 1px solid lightblue;
+         border-radius: 20px;
+         box-shadow: 0 0 15px rgb(190, 85, 14);
+         background: #ffffff5e;
+         max-height: 300px;
+         padding: 0 0 0 10px;
 
+     }
+  
+   
 
     nav ul {
         display: flex;
@@ -99,7 +103,7 @@
 
     .hero {
         display:
-            margin: auto;
+         margin: auto;
         position: relative;
     }
 
@@ -146,17 +150,6 @@
     .forecast {
         display: block;
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

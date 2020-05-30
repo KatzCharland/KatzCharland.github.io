@@ -9,12 +9,15 @@
          border-radius: 20px;
          box-shadow: 0 0 15px rgb(190, 85, 14);
          background: #ffffff5e;
-         max-height: 300px
+         max-height: 300px;
          padding: 0 0 0 10px;
+        
 
      }
   
-   
+     .summary-scenerios p {
+         margin: 1em;
+     }
 
     nav ul {
         display: flex;

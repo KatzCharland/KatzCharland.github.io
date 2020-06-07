@@ -10,13 +10,13 @@ body {
 }
 
 img[data-src] {
-    filter: blur(.2em);
-    transition: filter 0.5 sec;
+    filter: blur(0em);
+    transition: filter 0s;
     border: 1px solid lightsalmon;
 }
 
 img {
-    filter: blur(0em);
-    transition: filter 0.5s;
+    filter: blur(.2em);
+    transition: filter 0.8s;
      border: 1px solid lightsalmon;
 }

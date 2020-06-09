@@ -151,7 +151,7 @@
          max-width: 1048;
      }
 
-     .gallery-images figure: hover {
+     .gallery-images figure  :hover {
        box-shadow: rgb(75, 73, 212);
      }
 

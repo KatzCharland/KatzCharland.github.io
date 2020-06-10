@@ -2,7 +2,6 @@ table {
     font-family: ubuntu, sans-serif;
     border: solid 1px #cdcdcd;
     border-collapse: collapse;
-    width: 100%;
     box-shadow: 10px 10px 15px #5e9097;
 
 }
@@ -16,12 +15,20 @@ th {
     border:
 }
 
+th {
+    background-color: #628ca6;
+}
+
 tr:nth-child(even) {
     background-color: #e7f0ed;
   
 }
 tr:nth-child(odd){
     background-color: #e7ffed;
+}
+
+tr:nth-child(4) td:nth-child(3){
+    background-color: #628ca6;
 }
 
 tfoot tr td{
@@ -31,7 +38,8 @@ tfoot tr td{
 }
 
 
-thead {
+thead tr th{
+  background-color: #628ca6;
   color: white;
     
 }

@@ -1,18 +1,18 @@
 table {
-    font-family: ubuntu, sans-serif;
-    border: solid 1px #cdcdcd;
+    border: solid 1px #dddddd;
     border-collapse: collapse;
     box-shadow: 10px 10px 15px #5e9097;
+    max-width: 400;
 
 }
 
 td,
 th {
-    border: solid 1px solid #afaeae;
+    border: solid 2px solid #dddddd;
     text-align: center;
     padding: 8px;
     font-weight: 300;
-    border:
+
 }
 
 th {
@@ -31,10 +31,11 @@ tr:nth-child(4) td:nth-child(3){
     background-color: #628ca6;
 }
 
-tfoot tr td{
+tfoot tr td {
     background-color: #7fb9c2;
     color: black; 
     text-align: center;
+    padding: 8px;
 }
 
 

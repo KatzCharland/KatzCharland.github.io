@@ -19,11 +19,17 @@ tr:nth-child(odd){
     background-color: #e7ffed;
 }
 
-thread, tfoot {
+tfoot {
     background-color: #7fb9c2;
+    color: black; 
     text-align: center;
 }
 
 td, th {
  text-align: center;
+}
+
+scope {
+  color: white;
+    
 }

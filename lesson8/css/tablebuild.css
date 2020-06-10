@@ -33,6 +33,8 @@ tfoot tr td {
     color: black; 
     text-align: center;
     padding: 8px;
+    line-height: 1.5;
+    font-size: .50em;
 }
 
 

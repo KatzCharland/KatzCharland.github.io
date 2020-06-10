@@ -1,14 +1,14 @@
 table {
-    border: solid 1px #dddddd;
+    border: solid 2px #B4B4B2;
     border-collapse: collapse;
     box-shadow: 10px 10px 15px #5e9097;
-    max-width: 400;
+    max-width: 400px;
 
 }
 
 td,
 th {
-    border: solid 2px solid #dddddd;
+    border: solid 2px solid #B4B4B2;
     text-align: center;
     padding: 8px;
     font-weight: 300;

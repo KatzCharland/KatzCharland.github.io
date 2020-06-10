@@ -1,19 +1,14 @@
-table {
+table, td, th {
     border: solid 2px #B4B4B2;
     border-collapse: collapse;
     box-shadow: 10px 10px 15px #5e9097;
-    max-width: 400px;
-
-}
-
-td,
-th {
-    border: solid 2px solid #B4B4B2;
-    text-align: center;
+    max-width: 100%;
     padding: 8px;
+    text-align: center;
+    font-size: .75em;
     font-weight: 300;
-
 }
+
 
 th {
     background-color: #628ca6;
@@ -29,6 +24,8 @@ tr:nth-child(odd){
 
 tr:nth-child(4) td:nth-child(3){
     background-color: #628ca6;
+    color: white;
+
 }
 
 tfoot tr td {
@@ -46,6 +43,7 @@ thead tr th{
 }
 body { 
   font-family: 'Ubuntu',sans-serif;
+  max-width: 400px;
 }
 
 caption {

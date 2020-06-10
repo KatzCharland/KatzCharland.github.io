@@ -1,14 +1,19 @@
 table {
     font-family: ubuntu, sans-serif;
+    border: solid 1px #cdcdcd;
     border-collapse: collapse;
     width: 100%;
+    box-shadow: 10px 10px 15px #5e9097;
+
 }
 
 td,
 th {
-    border: 1px solid #dddddd;
-    text-align: left;
+    border: solid 1px solid #afaeae;
+    text-align: center;
     padding: 8px;
+    font-weight: 300;
+    border:
 }
 
 tr:nth-child(even) {
@@ -19,17 +24,25 @@ tr:nth-child(odd){
     background-color: #e7ffed;
 }
 
-tfoot {
+tfoot tr td{
     background-color: #7fb9c2;
     color: black; 
     text-align: center;
 }
 
-td, th {
- text-align: center;
-}
 
-scope {
+thead {
   color: white;
     
+}
+body { 
+  font-family: 'Ubuntu',sans-serif;
+}
+
+caption {
+    background-color: #7fb9c2;
+    padding: 10px;
+    box-shadow: 10px 10px 15px #5e9097;
+    font-size: 1.5em;
+    font-weight: bold;
 }

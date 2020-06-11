@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Idaho's Weather Source | Town of Preston| Katz Charland</title>
+    <title>Idaho's Weather Source | Storm Center| Katz Charland</title>
     <meta name="description" content="Idaho's ReliableWeather Source">
     <link href="https://fonts.googleapis.com/css?family=Francois+One%7cOpen+Sans%7cPlayfair+Display&display=swap"
         rel="stylesheet">
@@ -17,10 +17,7 @@
 </head>
 
 <body>
-    <div id="pancakes" class="appear">
-        <h1>Saturday is Preston Pancakes in the Park! 7:00 am at the City Park!</h1>
-    </div>
-
+   
     <header>
         <img class="logo" src="images/weather_logo.png" alt="Weather Logo">
 
@@ -42,79 +39,65 @@
             <li><a class="#" href="../lesson6/index.html">Preston</a></li>
             <li><a class="#" href="#">Soda Springs</a></li>
             <li><a class="#" href="#">Fish Haven</a></li>
-            <li><a class="#" href="#">Storm Center</a></li>
-            <li><a class="active" href="gallery7.html">Gallery</a></li>
+            <li><a class="#" href="stormcenter.html">Storm Center</a></li>
+            <li><a class="active" href="../gallery7.html">Gallery</a></li>
         </ul>
     </nav>
 
-    <main>
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <figure>
-                <img class="gallery-images" src="images/placeholder.jpg" data-src="images/oaklandtemple.jpg"
-                    alt="Oakland Temple">
-                <figcaption>My Temple - Oakland, CA - A New Beginning.</figcaption>
-            </figure>
-            <figure> <img class="gallery-images" src="images/placeholder.jpg" data-src="images/NASA_60th_LOGO.jpg"
-                    alt="NASA LOGO">
-                <figcaption>NASA Moffet Field, CA - Home away from Home!</figcaption>
-            </figure>
-            <figure> <img class="gallery-images" src="images/placeholder.jpg" data-src="images/snowstorm.jpg"
-                    alt="Snowy">
-                <figcaption>After a Nor'easter snow storm in Maine (10 feet).</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-images" src="images/placeholder.jpg" data-src="images/bear.jpg" alt="Bear">
-                <figcaption>A neighbor bear coming to visit.</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-images" src="images/placeholder.jpg" data-src="images/noaa-rainburst.jpg"
-                    alt="Rain Burst">
-                <figcaption>Rain Burst.</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-images" src="images/placeholder.jpg" data-src="images/eiffelTower1.jpg"
-                    alt="Eiffel Tower">
-                <figcaption>Cloudy day at the Eiffel Tower Paris, France.</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-images" src="images/placeholder.jpg" data-src="images/wonderousNightsky.jpg"
-                    alt="Night Sky">
-                <figcaption>Check with Seti Institute! Are Those Aliens Watching?</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-images" src="images/placeholder.jpg" data-src="images/trinity-college.jpg"
-                    alt="Trinity College Dublin, Ireland">
-                <figcaption>Trinity College's Old Library holds 200,000 oldest books. Dublin Ireland</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-images" src="images/placeholder.jpg" data-src="images/paris1France.png"
-                    alt="Paris France">
-                <figcaption>Paris, France.</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-images" src="images/placeholder.jpg" data-src="images/boywithdogfishing.jpg"
-                    alt="Boy with Dog Fishing">
-                <figcaption>Boy and Dog Watching Fish Swim By.</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-images" src="images/placeholder.jpg" data-src="images/bantrybayIreland.jpg"
-                    alt="Bantry Bay Ireland">
-                <figcaption>Bantry Bay Ireland.</figcaption>
-            </figure>
-            <figure>
-                <img class="gallery-images" src="images/placeholder.jpg" data-src="images/cometChristensen.jpg"
-                    alt="Christensen Comet">
-                <figcaption>The Christensen Comet</figcaption>
-            </figure>
+   <main>
+       <h2>Storm Center</h2>
+       <form method="get" action="thanks.html">
+           <fieldset>
+               <legend>Your Information</legend>
+               <label class="top">Full Name*<input type="text" name="fullname" required></label>
+               <label class="top">Last Name*<input type="text" name="lname" required></label>
+               <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234">
+                   <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" required>
+                       <label class="top">Website<input url="email" name="url" placeholder="http://">
+                       </label>
+           </fieldset>
+
+           <fieldset>
+               <legend>Your Information</legend>
+               <div>Audience</div>
+               <label class="sba"><input type="radio" name"audience" value="beginner">Beginner</label>
+               <label class="sbs"><input type="radio" name"audience" value="intermediate">Intermediate</label>
+               <label class="sbs"><input type="radio" name"audience" value="advance">Advance</label>
+
+               <div>Software Needed</div>
+               <label class="sbs"><input type="checkbox" name"editing" value="yes">Photo Editing</label>
+               <label class="sbs"><input type="checkbox" name"code" value="yes">Coding</label>
+               <label class="sbs"><input type="checkbox" name"process" value="yes">Preprocessor</label>
+               <label class="sbs"><input type="checkbox" name"client" value="yes">FTP Client</label>
+           </fieldset>
+
+           <fieldset>
+               <legend>Funding</legend>
+               <label class="top">Anticipated Completion Date<input type="date" name"completeDate"></label>
+               <label class="top">Course Subject
+                   <select name="subject"></select>
+                   <option value="">Please Select &#9662;</option>
+                   <option value="software">Software Development</option>
+                   <option value="creative">Creative Professional</option>
+                   <option value="info">INformation Technology</option>
+                   <option value="data">Data Professional</option>
+                   <option value="construction">Construction</option>
+                   <option value="manufacturing">Manufacturing</option>
+                   <option value="business">Business Professional</option>
+                   <option value="security">CyberSecurity</option>
+               </label>
+
+               <label class="top">How Many Authors <input type="number" name"authors"></label>
+           </fieldset>
+
+           <input type="submit" value="Propose My Course" class="submitBtn">
+
+
+       </form>
 
 
 
-
-        </div>
-
-    </main>
-
+   </main>
 
     <footer>
         <div> &copy; | Idaho's Reliable Source | Attributions | Katherine Charland |

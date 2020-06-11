@@ -1,14 +1,16 @@
 table, th, td {
     border: solid 1px #B4B4B2;
     border-collapse: collapse;
-    box-shadow: 10px 10px 15px #5e9097;
+   
     max-width: 100%;
     padding: 8px;
     text-align: center;
     font-size: .75em;
     font-weight: 300;
 }
-
+ table {
+      box-shadow: 10px 10px 15px #5e9097;
+ }
 
 th {
     background-color: #628ca6;
@@ -44,7 +46,7 @@ thead tr th{
     
 }
 body { 
-  font-family: 'Ubuntu',sans-serif;
+font-family: 'Ubuntu', sans-serif;
   max-width: 400px;
 }
 

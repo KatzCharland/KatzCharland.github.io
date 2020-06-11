@@ -94,67 +94,40 @@
         background-color: rgba(29, 107, 225, 0.1);
         padding: 5px;
     }
+@media only screen and (min-width: 64rem) {
 
-    .hero {
-        margin: 10px auto;
-        position: relative;
-        width: 100%;
-        max-width: height 200px;
-        ;
-
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 64rem;
+        margin: auto;
     }
 
-    .artpic {
-        display: flex;
-        float: right;
-        max-width: 200px;
-        height: auto;
+    /*----------- BODY --------------*/
 
+
+
+    /*----------- HEADER --------------*/
+
+
+
+    /*----------- NAVIGATION --------------*/
+
+
+
+    /*----------- MAIN --------------*/
+
+    form label.sbs {
+        padding .4rem 0;
     }
 
-    .contactInfo {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
 
+    /*----------- FOOTER --------------*/
 
-    .contact_info {
-        display: block;
-        text-align: center;
+}
 
-    }
-
-    .address {
-        padding: 20px;
-
-    }
-
-    .address p {
-        margin: 0;
-    }
-
-    .map {
-        width: 100%;
-        height: auto;
-    }
-
-    .wicon {
-        width: 121;
-        height: 170;
-    }
-
-     .gallery {
-         display: grid;
-         grid-template-columns: 1fr 1fr 1fr;
-         grid-gap: 10px;
-         margin: 1rem auto;
-         max-width: 1048;
-     }
-
-     .gallery-images:hover {
-       box-shadow: 5px 5px 5px 5px rgb(107, 105, 226);
-       color: lightblue; 
-     }
+/* end of media query */
 
 
 }

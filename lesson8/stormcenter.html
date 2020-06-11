@@ -17,7 +17,7 @@
 </head>
 
 <body>
-   
+
     <header>
         <img class="logo" src="images/weather_logo.png" alt="Weather Logo">
 
@@ -44,60 +44,61 @@
         </ul>
     </nav>
 
-   <main>
-       <h2>Storm Center</h2>
-       <form method="get" action="thanks.html">
-           <fieldset>
-               <legend>Your Information</legend>
-               <label class="top">Full Name*<input type="text" name="fullname" required></label>
-               <label class="top">Last Name*<input type="text" name="lname" required></label>
-               <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234">
-                   <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" required>
-                       <label class="top">Website<input url="email" name="url" placeholder="http://">
-                       </label>
-           </fieldset>
+    <main>
+        <h2>Storm Center</h2>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Your Information</legend>
+                <label class="top">Full Name*<input type="text" name="fullname"
+                        title="Only Letters, No more than 15 characters" pattern="[A-Za-z\s]{15,}" required></label>
+                <label class="top">Phone*<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder="(123) 555-1234" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required>
+                    <label class="top">Website<input url="email" name="url" placeholder="http://">
+                    </label>
+            </fieldset>
 
-           <fieldset>
-               <legend>Your Information</legend>
-               <div>Audience</div>
-               <label class="sba"><input type="radio" name"audience" value="beginner">Beginner</label>
-               <label class="sbs"><input type="radio" name"audience" value="intermediate">Intermediate</label>
-               <label class="sbs"><input type="radio" name"audience" value="advance">Advance</label>
+            <fieldset>
+                <legend>Your Information</legend>
+                <div>Audience</div>
+                <label class="sba"><input type="radio" name"audience" value="beginner">Beginner</label>
+                <label class="sbs"><input type="radio" name"audience" value="intermediate">Intermediate</label>
+                <label class="sbs"><input type="radio" name"audience" value="advance">Advance</label>
 
-               <div>Software Needed</div>
-               <label class="sbs"><input type="checkbox" name"editing" value="yes">Photo Editing</label>
-               <label class="sbs"><input type="checkbox" name"code" value="yes">Coding</label>
-               <label class="sbs"><input type="checkbox" name"process" value="yes">Preprocessor</label>
-               <label class="sbs"><input type="checkbox" name"client" value="yes">FTP Client</label>
-           </fieldset>
+                <div>Software Needed</div>
+                <label class="sbs"><input type="checkbox" name"editing" value="yes">Photo Editing</label>
+                <label class="sbs"><input type="checkbox" name"code" value="yes">Coding</label>
+                <label class="sbs"><input type="checkbox" name"process" value="yes">Preprocessor</label>
+                <label class="sbs"><input type="checkbox" name"client" value="yes">FTP Client</label>
+            </fieldset>
 
-           <fieldset>
-               <legend>Funding</legend>
-               <label class="top">Anticipated Completion Date<input type="date" name"completeDate"></label>
-               <label class="top">Course Subject
-                   <select name="subject"></select>
-                   <option value="">Please Select &#9662;</option>
-                   <option value="software">Software Development</option>
-                   <option value="creative">Creative Professional</option>
-                   <option value="info">INformation Technology</option>
-                   <option value="data">Data Professional</option>
-                   <option value="construction">Construction</option>
-                   <option value="manufacturing">Manufacturing</option>
-                   <option value="business">Business Professional</option>
-                   <option value="security">CyberSecurity</option>
-               </label>
+            <fieldset>
+                <legend>Funding</legend>
+                <label class="top">Anticipated Completion Date<input type="date" name"completeDate"></label>
+                <label class="top">Course Subject
+                    <select name="subject"></select>
+                    <option value="">Please Select &#9662;</option>
+                    <option value="software">Software Development</option>
+                    <option value="creative">Creative Professional</option>
+                    <option value="info">INformation Technology</option>
+                    <option value="data">Data Professional</option>
+                    <option value="construction">Construction</option>
+                    <option value="manufacturing">Manufacturing</option>
+                    <option value="business">Business Professional</option>
+                    <option value="security">CyberSecurity</option>
+                </label>
 
-               <label class="top">How Many Authors <input type="number" name"authors"></label>
-           </fieldset>
+                <label class="top">How Many Authors <input type="number" name"authors"></label>
+            </fieldset>
 
-           <input type="submit" value="Propose My Course" class="submitBtn">
-
-
-       </form>
+            <input type="submit" value="Propose My Course" class="submitBtn">
 
 
+        </form>
 
-   </main>
+
+
+    </main>
 
     <footer>
         <div> &copy; | Idaho's Reliable Source | Attributions | Katherine Charland |

@@ -271,8 +271,7 @@ form div {
     display: block;
     padding-top: 1rem;
     color: rgb(190, 85, 14);
-    font-size;
-    .8rem;
+    font-size: .8rem;
 }
 
 form label.top input,

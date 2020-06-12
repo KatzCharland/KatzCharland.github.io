@@ -270,7 +270,7 @@ form label.top,
 form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: rgb(190, 85, 14);
     font-size;
     .8rem;
 }
@@ -321,7 +321,7 @@ form label.top input:required:valid {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: #949BFF;
     padding: .5rem 2%;
     text-align: center;
 }

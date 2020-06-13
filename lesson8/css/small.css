@@ -28,23 +28,6 @@ header div section {
     color: black;
 }
 
-.article {
-    display: block;
-    background-color: rgba(119, 113, 113);
-    border: 1px solid rgb(190, 85, 14);
-    text-align: center;
-}
-
-.articleimg {
-    width: 25%;
-    height: auto;
-    float: right;
-    position: relative;
-    border-radius: 15px;
-    border: rgb(0, 0, 0);
-    background-color: rgba(190, 94, 66, 0.3);
-    bottom: 30px;
-}
 
 .content {
     display: block;

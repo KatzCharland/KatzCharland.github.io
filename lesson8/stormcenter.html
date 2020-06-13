@@ -56,7 +56,6 @@
                 <label class="top">ZipCode*<input type="text" pattern="[0-9]{5}" title="Five digit zip code" required></label>
             </fieldset> 
                 <br>
-
                 <fieldset> 
                 <legend>Storm Description</legend>
                 <label class="top">Storm Date<input type="date" name="date"></label>
@@ -69,11 +68,20 @@
                           <option value="Tornado"></option>
                     </datalist>
                         <br>
-               <label class="ticks" for="stormSeverity"> Storm Severity (Scale 1 to 10)<br><br>
-                <input type="range" name="stormSeverity"  value="8" min="0" max="10" step="1" list="tickMarks" oninput="displayValue(this.value)" onchange="displayValue(this.value)"> 
-                <span id="adjustedValue">8</span></label> 
-                    <datalist id="tickMarks">
+                    <label class="top">Storm Region<input list="region" name="region"></label>
+                    <datalist id="region">
+                        <option value="" selected disabled>Select Region - </option>
+                        <option value="preston">Preston</option>
+                        <option value="fishHaven">Fish Haven</option>
+                        <option value="sodaSprings">Soda Springs</option>
+                    </datalist>
+                        <br>
 
+               <label class="ticks" for="catagorizing"> Storm Severity (Scale 1 to 10)<br><br>
+                <input type="range" name="stormSeverity"  value="8" min="0" max="10" step="1" list="ticMarks" oninput="displayValue(this.value)" onchange="displayValue(this.value)"> 
+                <span id="adjustedValue">8</span></label> 
+                    
+                <datalist id="ticMarks">
                         <option value="0"></option>
                         <option value="1"></option>
                         <option value="2"></option>
@@ -85,27 +93,26 @@
                         <option value="8"></option>
                         <option value="9"></option>
                         <option value="10"></option>
-                    </datalist>
+                </datalist>
                             <br>
- 
-                <label class="top">Storm Region<input list="region" name="region"></label>
-                    <datalist id="region">
-                 <option value="" selected disabled>Select Region - </option>
-                 <option value="preston">Preston</option>
-                 <option value="fishHaven">Fish Haven</option>
-                 <option value="sodaSprings">Soda Springs</option>
-                 </datalist>
-            </fieldset>
-        
-                <legend>Additional Information</legend>
-                <label class="top">Anticipated Completion Date<input type="date" name"completeDate"></label>
-                <label class="top">Course Subject
-                    <select name="subject"></select>
-                                   </label>
+                            <br>
+                
+                   <label>Are You in Danger? <em>(Choose one)</em></label><br>
+                   <label for="yes"><input type="radio" id="yes" name="response" value="yes" checked>Yes</label><br>
+                   <label for="no"><input type="radio" id="no" name="response" value="no"> No</label><br>
+                   <label for="maybe"><input type="radio" id="maybe" name="response" value="maybe">Maybe</label><br>
+                 
 
-                <label class="top">How Many Authors <input type="number" name"authors"></label>
+            </fieldset>
+       
+              <fieldset>
+                  <legend>Additional Information</legend>
+                  <label>Enter observations or comments below:<br><br><textarea name="comments" class="space"></textarea></label>
+              </fieldset>
+               
+                
             
-      >
+      
 
             <input type="submit" value="Report a Storm" class="submitBtn">
 

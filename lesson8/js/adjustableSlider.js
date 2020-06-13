@@ -1,3 +1,3 @@
-function adjustableSlider(ticMarks) {
+function displayValue(rating) {
     document.getElementById("adjustedValue").innerHTML = rating;
 }

@@ -166,6 +166,37 @@ nav a:hover {
 
 }
 
+.article {
+    display: block;
+    background-color: rgba(119, 113, 113);
+    border: 1px solid rgb(190, 85, 14);
+    text-align: center;
+}
+
+.articleimg {
+    width: 25%;
+    height: auto;
+    float: right;
+    position: relative;
+    border-radius: 15px;
+    border: rgb(0, 0, 0);
+    background-color: rgba(190, 94, 66, 0.3);
+    bottom: 30px;
+}
+
+.content {
+    display: block;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 1em;
+    background-color: #939995;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    border: solid rgba(190, 85, 14, .03);
+}
+
 .summary-scenerios p {
     margin: 0;
 }
@@ -175,9 +206,51 @@ picture img {
     height: auto;
 }
 
+#pancakes.appear {
+    display: block;
+    text-align: center;
+    margin: 71px 0;
+}
+
+#pancakes {
+    padding: 20px 0 20px 0;
+    background-color: rgba(190, 85, 14, 0.5);
+    color: rgb(4, 13, 145);
+
+}
+
+.contactInfo {
+    display: block;
+    text-align: center;
 
 
+}
 
+.address {
+    padding: 20px;
+
+}
+
+.address p {
+    margin: 0;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.wicon {
+    width: 121;
+    height: 170;
+}
+
+.forecast {
+    display: none;
+
+
+}
 
 
 /* Style the active link (or home/logo) */

@@ -24,7 +24,7 @@ fetch(requestURL)
             image.setAttribute('alt', prophets[i].name + prophets[i].lastname + " - " + prophets[i].order);
 
             card.appendChild(title);
-            card.appendChild(birthdate);
+            card.appendChild(birthDate);
             card.appendChild(birthPlace);
             card.appendChild(image);
             document.querySelector('div.cards').appendChild(card);

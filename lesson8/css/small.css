@@ -1,5 +1,4 @@
-header,
-footer {
+header, footer {
     background-color: #949BFF;
     color: rgb(190, 85, 14);
     display: flex;

@@ -17,7 +17,7 @@ fetch(requestURL)
 
 
 
-            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+           /* h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;*/
             birthday.textContent = "Date of Birth: " + prophets[i].birthdate;
             birthstate.textContent = "Place of Birth: " + prophets[i].birthplace;
             image.setAttribute('src', prophets[i].imageurl);

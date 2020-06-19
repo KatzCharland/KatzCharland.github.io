@@ -1,17 +1,39 @@
-section{
-    background-color: ;
+section {
+    background-color: #b9b9ca;
+    border: #8d8db3 solid 2px;
 }
 
 
 
+main {
+    background-color: #dddddd;
+    box-shadow: dimgray 0 0 25px;
+    margin-top: -10px;
+    font-family: 'Bree Serif', serif;
+    max-width: 1200px;
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+}
 
 
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #9932CC;
 
 
+}
+
+img {
+    display: block;
+    width: 80%;
+    box-shadow: darkgrey 0px 0px 10px 5px;
 
 
-
-
+}
 
 
 .cards {
@@ -25,8 +47,10 @@ section{
     .cards {
         grid-template-columns: 1fr 1fr;
     }
+}
 
 @media only screen and (min-width: 900px) {
     .cards {
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}

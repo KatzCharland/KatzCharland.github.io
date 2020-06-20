@@ -6,9 +6,9 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject); // temporary checking for valid response and data parsing
-        const prophets = jsonObject['prophets'];
+        const townData = jsonObject['townData'];
 
-        for (let i = 0; i < prophets.length; i++) {
+        for (let i = 0; i < townData.length; i++) {
             let card = document.createElement('section');
             let title = document.createElement('h2');
             let birthdate = document.createElement('p');

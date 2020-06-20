@@ -11,13 +11,18 @@ fetch(requestURL)
 
         for (let i = 0; i < townData.length; i++) {
             let card = document.createElement('section');
-            let title = document.createElement('h2');
-            let birthdate = document.createElement('p');
-            let bornAt = document.createElement('p');
-            let photo = document.createElement('img');
+            let description =document.createElement ('span');
+            let h2 = document.createElement('h2');
+            let annuualRain= document.createElement('p');
+            let year = document.createElement('p');
+            let population = document.createElement('p');
+            let image = document.createElement('img');
+            let div = document.createElement('div');
+
+            
 
 
-            birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
+            year.textContent = 'year founded: ' + prophets[i].y;
             bornAt.textContent = 'Place of Birth: ' + prophets[i].birthplace;
             photo.setAttribute('src', prophets[i].imageurl);
             photo.setAttribute('alt', prophets[i].name + prophets[i].lastname + " - " + prophets[i].order);

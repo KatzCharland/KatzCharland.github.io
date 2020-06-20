@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = '"https://byui-cit230.github.io/weather/data/towndata.json"';
 
 fetch(requestURL)
     .then(function (response) {
@@ -6,7 +6,7 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject); // temporary checking for valid response and data parsing
-        const townData = jsonObject['townData'];
+        const prophets = jsonObject['prophets'];
 
         for (let i = 0; i < prophets.length; i++) {
             let card = document.createElement('section');
@@ -15,7 +15,7 @@ fetch(requestURL)
             let bornAt = document.createElement('p');
             let photo = document.createElement('img');
 
-        
+
             birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
             bornAt.textContent = 'Place of Birth: ' + prophets[i].birthplace;
             photo.setAttribute('src', prophets[i].imageurl);

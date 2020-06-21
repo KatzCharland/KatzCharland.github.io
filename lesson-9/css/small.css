@@ -430,3 +430,71 @@ form label.top input:required:valid {
     gap: 5px;
     align-self: auto;
 }
+townholder h1,
+townholder h2,
+townholder h3,
+townholder h4,
+townholder h5 {
+    text-align: center;
+}
+
+townholder h1 {
+    font-family: "Neucha", fantasy, cursive;
+    font-size: 32px;
+    font-variant: none;
+    border-bottom: gold dotted 5px;
+}
+
+townholder h2 {
+    text-shadow: transparent 3px 3px 5px;
+    color: black;
+    font-family: fantasy, serif;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 35px;
+
+}
+
+townholder h3,
+townholder h4,
+townholder h5 {
+    text-shadow: transparent 3px 3px 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: .3em;
+}
+
+townholder h5 {
+    margin-top: -1px;
+}
+
+townholder img {
+    width: 100%;
+}
+
+townholder {
+    width: 85%;
+    margin: auto;
+    background-color: lemonchiffon;
+    border: gold dotted 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: darkslategray 0 0 20px;
+}
+
+.cards {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+townholder :nth-child(1) {
+    grid-row: 3;
+
+}

@@ -10,27 +10,27 @@ fetch(requestURL)
        const relevantTowns = ["Fish Haven", "Soda Springs", "Preston"]; 
 
         for (let i = 0; i < townData.length; i++) {
-            let card = document.createElement('section');
+            let card = document.createElement('townholder');
             let description =document.createElement ('span');
-            let h2 = document.createElement('h2');
-            let annuualRain= document.createElement('p');
-            let year = document.createElement('p');
-            let population = document.createElement('p');
+            let name= document.createElement('h1');
+            let motto = document.createElement('h2');
+            let year = document.createElement('h3');
+            let population = document.createElement('h4');
+            let annuualRain = document.createElement('h5');
             let image = document.createElement('img');
-            let div = document.createElement('div');
+           
 
-            
+          
+            name.textContent = townData[i].name + ' ' + townData[i].lastname;
+            year.textContent = 'yearFounded: ' + townData[i].y;
+            bornAt.textContent = 'Place of Birth: ' + townData[i].birthplace;
+            photo.setAttribute('src', townData[i].imageurl);
+            photo.setAttribute('alt', townData[i].name + townData[i].lastname + " - " + townData[i].order);
+           
 
-
-            year.textContent = 'year founded: ' + prophets[i].y;
-            bornAt.textContent = 'Place of Birth: ' + prophets[i].birthplace;
-            photo.setAttribute('src', prophets[i].imageurl);
-            photo.setAttribute('alt', prophets[i].name + prophets[i].lastname + " - " + prophets[i].order);
-            title.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-
-            card.appendChild(title);
-            card.appendChild(birthdate);
-            card.appendChild(bornAt);
+            card.appendChild(name);
+            card.appendChild(moto);
+            card.appendChild(yearFounded);
             card.appendChild(photo);
             document.querySelector('div.cards').appendChild(card);
         }

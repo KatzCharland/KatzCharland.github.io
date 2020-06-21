@@ -7,32 +7,38 @@ fetch(requestURL)
     .then(function (jsonObject) {
         console.table(jsonObject); // temporary checking for valid response and data parsing
         const townData = jsonObject['townData'];
-       const relevantTowns = ["Fish Haven", "Soda Springs", "Preston"]; 
-
+            //Creating elements and content
         for (let i = 0; i < townData.length; i++) {
-            let card = document.createElement('townholder');
-            let description =document.createElement ('span');
+            if (townData[i].name == "Preston" || townData[i].name == "Soda Springs" || townData[i].name == "Fish Haven")
+           
+            //Creating image section
+            let card = document.createElement('section');
+            let image = document.createElement('img');
+           //Creating text section  
+            let description =document.createElement ('div');
             let name= document.createElement('h1');
             let motto = document.createElement('h2');
-            let year = document.createElement('h3');
-            let population = document.createElement('h4');
-            let annuualRain = document.createElement('h5');
-            let image = document.createElement('img');
+            let yearFoundeed = document.createElement('p');
+            let population = document.createElement('p');
+            let averageRain = document.createElement('p');
            
-
-          
-            name.textContent = townData[i].name + ' ' + townData[i].name;
-            motto.textContent = 'Place of Birth: ' + townData[i].birthplace
-            year.textContent = 'yearFounded: ' + townData[i].y;
-            
-            photo.setAttribute('src', townData[i].imageurl);
-            photo.setAttribute('alt', townData[i].name + townData[i].lastname + " - " + townData[i].order);
-           
-
-            card.appendChild(name);
-            card.appendChild(moto);
-            card.appendChild(yearFounded);
-            card.appendChild(photo);
+          //Creating content
+             photo.setAttribute('src', 'townData/' +  townData[i].image);
+             photo.setAttribute('alt', townData[i].name);
+             name.textContent = townData[i].name;
+             motto.textContent = '\"' + townData[i].moto + '\"';
+             year.textContent = 'Founded: ' + townData[i].yearFounded;
+             population.textContent ='Population: ' + townData [i].presentPopulation;
+             rainfall.textContent = 'Average Rainfall:' + townData[i].averageRainfall;
+            //Inserting elements into image section
+           card.appendChild(photo);
+           //Inserting elements in text section
+            text.appendChild(name);
+            text.appendChild(moto);
+            text.appendChild(founded);
+            text.appendChild(population);
+            text.appendChild(rainfall);
+            card.appendChild(text); 
             document.querySelector('div.cards').appendChild(card);
         }
     });

@@ -430,22 +430,18 @@ form label.top input:required:valid {
     gap: 5px;
     align-self: auto;
 }
-townholder h1,
-townholder h2,
-townholder h3,
-townholder h4,
-townholder h5 {
+townData h1, townData h2, townData p,  {
     text-align: center;
 }
 
-townholder h1 {
+townData h1 {
     font-family: "Neucha", fantasy, cursive;
     font-size: 32px;
     font-variant: none;
-    border-bottom: gold dotted 5px;
+  
 }
 
-townholder h2 {
+townData h2 {
     text-shadow: transparent 3px 3px 5px;
     color: black;
     font-family: fantasy, serif;
@@ -455,9 +451,7 @@ townholder h2 {
 
 }
 
-townholder h3,
-townholder h4,
-townholder h5 {
+townData p{
     text-shadow: transparent 3px 3px 5px;
     color: black;
     font-size: 15px;
@@ -467,19 +461,18 @@ townholder h5 {
     line-height: .3em;
 }
 
-townholder h5 {
-    margin-top: -1px;
-}
 
-townholder img {
+
+
+townData img {
     width: 100%;
 }
 
-townholder {
+townData {
     width: 85%;
     margin: auto;
     background-color: lemonchiffon;
-    border: gold dotted 5px;
+    border: skyblue dotted 5px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: darkslategray 0 0 20px;
@@ -490,11 +483,10 @@ townholder {
     margin-bottom: 70px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 50px;
+     gap: 50px;
 }
 
-townholder :nth-child(1) {
+townData :nth-child(1) {
     grid-row: 3;
 
 }

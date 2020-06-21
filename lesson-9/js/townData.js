@@ -21,9 +21,10 @@ fetch(requestURL)
            
 
           
-            name.textContent = townData[i].name + ' ' + townData[i].lastname;
+            name.textContent = townData[i].name + ' ' + townData[i].name;
+            motto.textContent = 'Place of Birth: ' + townData[i].birthplace
             year.textContent = 'yearFounded: ' + townData[i].y;
-            bornAt.textContent = 'Place of Birth: ' + townData[i].birthplace;
+            
             photo.setAttribute('src', townData[i].imageurl);
             photo.setAttribute('alt', townData[i].name + townData[i].lastname + " - " + townData[i].order);
            

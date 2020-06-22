@@ -18,7 +18,7 @@ fetch(requestURL)
             let text=document.createElement ('div');
             let name= document.createElement('h1');
             let motto = document.createElement('h2');
-            let yearFoundeed = document.createElement('p');
+            let yearFounded = document.createElement('p');
             let population = document.createElement('p');
             let averageRain = document.createElement('p');
            
@@ -27,7 +27,7 @@ fetch(requestURL)
              photo.setAttribute('alt', towns[i].name);
              name.textContent = towns[i].name;
              motto.textContent = '\"' + towns[i].moto + '\"';
-             year.textContent = 'Founded: ' + towns[i].yearFounded;
+             yearFounded.textContent = 'Founded: ' + towns[i].yearFounded;
              population.textContent ='Population: ' + towns[i].presentPopulation;
              rainfall.textContent = 'Average Rainfall:' + towns[i].averageRainfall;
             //Inserting elements into image section
@@ -35,7 +35,7 @@ fetch(requestURL)
            //Inserting elements in text section
             text.appendChild(name);
             text.appendChild(moto);
-            text.appendChild(founded);
+            text.appendChild(yearFounded);
             text.appendChild(population);
             text.appendChild(rainfall);
             card.appendChild(text); 

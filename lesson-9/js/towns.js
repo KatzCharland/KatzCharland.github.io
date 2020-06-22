@@ -26,20 +26,20 @@ fetch(requestURL)
              photo.setAttribute('src', 'images/' +  towns[i].photo);
              photo.setAttribute('alt', towns[i].name);
              name.textContent = towns[i].name;
-             motto.textContent = '\"' + towns[i].moto + '\"';
+             motto.textContent = '\"' + towns[i].motto + '\"';
              yearFounded.textContent = 'Founded: ' + towns[i].yearFounded;
              population.textContent ='Population: ' + towns[i].presentPopulation;
-             rainfall.textContent = 'Average Rainfall:' + towns[i].averageRainfall;
+             averageRain.textContent = 'Average Rainfall:' + towns[i].averageRainfall;
             //Inserting elements into image section
            card.appendChild(photo);
            //Inserting elements in text section
             text.appendChild(name);
-            text.appendChild(moto);
+            text.appendChild(motto);
             text.appendChild(yearFounded);
             text.appendChild(population);
-            text.appendChild(rainfall);
+            text.appendChild(averageRain);
             card.appendChild(text); 
-             document.querySelector('towns').appendChild(card);
+             document.querySelector('.towns').appendChild(card);
          } }
     })
 

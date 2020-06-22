@@ -39,7 +39,7 @@ fetch(requestURL)
             text.appendChild(population);
             text.appendChild(rainfall);
             card.appendChild(text); 
-             document.querySelector('div.cards').appendChild(card)
+             document.querySelector('towns').appendChild(card)
         }
     });
 

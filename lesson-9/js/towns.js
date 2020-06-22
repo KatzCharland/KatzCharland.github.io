@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towns.json';
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)
     .then(function (response) {
@@ -9,7 +9,7 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
             //Creating elements and content
         for (let i = 0; i < towns.length; i++) {
-            if (towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven")
+            if (towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven"){
            
             //Creating image section
             let card = document.createElement('section');
@@ -40,7 +40,7 @@ fetch(requestURL)
             text.appendChild(rainfall);
             card.appendChild(text); 
              document.querySelector('towns').appendChild(card);
-        }
+         } }
     })
 
     

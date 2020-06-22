@@ -443,26 +443,26 @@ form label.top input:required:valid {
     text-align: center;
 
 }
-.townData img {
+.towns img {
     padding: 15px;
 
 }
-.townData section {
+.towns section {
     background-color: #7f8a9f;
-    border: solid 2px salmon;
+   border: solid 2px salmon;
 }
-.townData h1, townData h2, townData p  {
+.towns h1, townData h2, townData p  {
     text-align: center;
 }
 
-.townData h1 {
+.towns h1 {
     font-family: 'Francois One', Playfair Display, cursive;
     font-size: 32px;
    
  
 }
 
-.townData h2 {
+.towns h2 {
     color: black;
     font-family: Francois One, serif;
     font-style: italic;
@@ -471,7 +471,7 @@ form label.top input:required:valid {
 
 }
 
-.townData p {
+.towns p {
     text-shadow: transparent 3px 3px 5px;
     color: black;
     font-size: 15px; 
@@ -481,7 +481,7 @@ form label.top input:required:valid {
 
 
 
-.townData {
+.towns {
     width: 85%;
     margin: auto;
     background-color:whitesmoke;
@@ -491,10 +491,10 @@ form label.top input:required:valid {
 
 
 
-/*townData :nth-child(1) {
+towns:nth-child(1) {
     grid-row: 3;
 
-}*/
+}/
 
 .wireframe {
     display: flex;

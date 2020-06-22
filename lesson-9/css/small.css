@@ -430,11 +430,6 @@ form label.top input:required:valid {
     gap: 50px;
 }*/
 
-.container{
-    display: block;
-    align-content: center;
-    margin: auto;
-}
 .cards { 
     margin-top: 50px;
     display: grid;

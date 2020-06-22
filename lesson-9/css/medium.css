@@ -1,6 +1,6 @@
 @media only screen and (min-width: 32.5em) {
-   
-  
+
+
 
     nav ul {
         display: flex;
@@ -67,11 +67,6 @@
 
     }
 
-    /*----------- BODY --------------*/
-
-
-
-    /*----------- HEADER --------------*/
 
 
 
@@ -96,21 +91,26 @@
         padding: .5rem 1rem;
     }
 
-     .container {
-         display: flex;
-         align-content: center;
-         margin: auto;
-     }
+
+    .iframe-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56, 25%;
+
+    }
+
 
 
 
     .towns {
         display: grid;
     }
+
     .towns img {
-        filter: blur(0em);  
+        filter: blur(0em);
         transition: filter 0.5s;
     }
+
     .towns section:nth-child(1) {
         display: flex;
         flex-direction: row;
@@ -122,9 +122,10 @@
         flex-direction: row;
         grid-row: 1;
     }
+
     .towns section:nth-child(3) {
         display: flex;
         flex-direction: row-reverse;
-        grid-row: 2; 
+        grid-row: 2;
     }
 }

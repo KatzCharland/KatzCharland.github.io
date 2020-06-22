@@ -431,12 +431,12 @@ form label.top input:required:valid {
 }*/
 
 .container{
-    display: flex;
+    display: block;
     align-content: center;
     margin: auto;
 }
 .cards { 
-    margin: 10px auto;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
@@ -484,7 +484,6 @@ form label.top input:required:valid {
 .towns {
     width: 85%;
     margin: auto;
-    background-color:whitesmoke;
     padding: 10px;
 
 }
@@ -494,7 +493,7 @@ form label.top input:required:valid {
 towns:nth-child(1) {
     grid-row: 3;
 
-}/
+}
 
 .wireframe {
     display: flex;

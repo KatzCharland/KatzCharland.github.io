@@ -111,10 +111,17 @@
         padding: .4rem 0;
     }
 
-    .container {
-        display: flex;
-        align-content: center;
-        margin: auto;
+    .iframe-container {
+        position: relative;
+    }
+
+    .cards {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px;
+        text-align: center;
+
     }
 
     .towns {

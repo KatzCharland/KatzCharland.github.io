@@ -490,7 +490,7 @@ towns:nth-child(1) {
 
 }
 
-.wireframe {
+#wireframe {
     display: flex;
     text-align: center;
 

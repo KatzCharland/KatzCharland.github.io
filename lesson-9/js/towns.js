@@ -15,7 +15,7 @@ fetch(requestURL)
             let card = document.createElement('section');
             let photo = document.createElement('img');
            //Creating text section  
-            let description =document.createElement ('div');
+            let text=document.createElement ('div');
             let name= document.createElement('h1');
             let motto = document.createElement('h2');
             let yearFoundeed = document.createElement('p');
@@ -39,7 +39,7 @@ fetch(requestURL)
             text.appendChild(population);
             text.appendChild(rainfall);
             card.appendChild(text); 
-            document.getElementById('townData').appendChild(card);
+             document.querySelector('div.cards').appendChild(card)
         }
     });
 

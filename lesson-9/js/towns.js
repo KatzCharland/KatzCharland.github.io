@@ -6,10 +6,10 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject); // temporary checking for valid response and data parsing
-        const townData = jsonObject['townData'];
+        const towns = jsonObject['towns'];
             //Creating elements and content
-        for (let i = 0; i < townData.length; i++) {
-            if (townData[i].name == "Preston" || townData[i].name == "Soda Springs" || townData[i].name == "Fish Haven")
+        for (let i = 0; i < towns.length; i++) {
+            if (towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven")
            
             //Creating image section
             let card = document.createElement('section');
@@ -23,13 +23,13 @@ fetch(requestURL)
             let averageRain = document.createElement('p');
            
           //Creating content
-             photo.setAttribute('src', 'townData/' +  townData[i].photo);
-             photo.setAttribute('alt', townData[i].name);
-             name.textContent = townData[i].name;
-             motto.textContent = '\"' + townData[i].moto + '\"';
-             year.textContent = 'Founded: ' + townData[i].yearFounded;
-             population.textContent ='Population: ' + townData [i].presentPopulation;
-             rainfall.textContent = 'Average Rainfall:' + townData[i].averageRainfall;
+             photo.setAttribute('src', 'towns/' +  towns[i].photo);
+             photo.setAttribute('alt', towns[i].name);
+             name.textContent = towns[i].name;
+             motto.textContent = '\"' + towns[i].moto + '\"';
+             year.textContent = 'Founded: ' + towns[i].yearFounded;
+             population.textContent ='Population: ' + towns[i].presentPopulation;
+             rainfall.textContent = 'Average Rainfall:' + towns[i].averageRainfall;
             //Inserting elements into image section
            card.appendChild(photo);
            //Inserting elements in text section
@@ -39,7 +39,7 @@ fetch(requestURL)
             text.appendChild(population);
             text.appendChild(rainfall);
             card.appendChild(text); 
-            document.querySelector('.townData').appendChild(card);
+            document.querySelector('.towns').appendChild(card);
         }
     });
 

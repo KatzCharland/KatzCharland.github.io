@@ -422,71 +422,82 @@ form label.top input:required:valid {
     clear: both;
 }
 
-
-
-.cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 5px;
-    align-self: auto;
-}
-townData h1, townData h2, townData p,  {
-    text-align: center;
-}
-
-townData h1 {
-    font-family: "Neucha", fantasy, cursive;
-    font-size: 32px;
-    font-variant: none;
-  
-}
-
-townData h2 {
-    text-shadow: transparent 3px 3px 5px;
-    color: black;
-    font-family: fantasy, serif;
-    font-style: italic;
-    font-size: 18px;
-    margin-bottom: 35px;
-
-}
-
-townData p{
-    text-shadow: transparent 3px 3px 5px;
-    color: black;
-    font-size: 15px;
-    font-weight: lighter;
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    line-height: .3em;
-}
-
-
-
-
-townData img {
-    width: 100%;
-}
-
-townData {
-    width: 85%;
-    margin: auto;
-    background-color: lemonchiffon;
-    border: skyblue dotted 5px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: darkslategray 0 0 20px;
-}
-
-.cards {
+/*.cards {
     margin-top: 50px;
     margin-bottom: 70px;
     display: grid;
     grid-template-columns: 1fr;
-     gap: 50px;
+    gap: 50px;
+}*/
+
+.container{
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+.cards { 
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    text-align: center;
+
+}
+.townData img {
+    padding: 15px;
+
+}
+.townData section {
+    background-color: #7f8a9f;
+    border: solid 2px salmon;
+}
+.townData h1, townData h2, townData p  {
+    text-align: center;
 }
 
-townData :nth-child(1) {
+.townData h1 {
+    font-family: 'Francois One', Playfair Display, cursive;
+    font-size: 32px;
+   
+ 
+}
+
+.townData h2 {
+    color: black;
+    font-family: Francois One, serif;
+    font-style: italic;
+    font-size: 18px;
+  
+
+}
+
+.townData p {
+    text-shadow: transparent 3px 3px 5px;
+    color: black;
+    font-size: 15px; 
+    text-align: center;
+   
+}
+
+
+
+.townData {
+    width: 85%;
+    margin: auto;
+    background-color:whitesmoke;
+    padding: 10px;
+
+}
+
+
+
+/*townData :nth-child(1) {
     grid-row: 3;
+
+}*/
+
+.wireframe {
+    display: flex;
+    text-align: center;
 
 }

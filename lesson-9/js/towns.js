@@ -23,7 +23,7 @@ fetch(requestURL)
             let averageRain = document.createElement('p');
            
           //Creating content
-             photo.setAttribute('src', 'towns/' +  towns[i].photo);
+             photo.setAttribute('src', 'images/' +  towns[i].photo);
              photo.setAttribute('alt', towns[i].name);
              name.textContent = towns[i].name;
              motto.textContent = '\"' + towns[i].moto + '\"';

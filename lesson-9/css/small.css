@@ -432,7 +432,7 @@ form label.top input:required:valid {
 
 .container{
     display: flex;
-    align-content: middle;
+    align-content: center;
     margin: auto;
 }
 .cards { 

@@ -96,6 +96,14 @@
         padding: .5rem 1rem;
     }
 
+     .container {
+         display: flex;
+         align-content: center;
+         margin: auto;
+     }
+
+
+
     .towns {
         display: grid;
     }

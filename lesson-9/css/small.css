@@ -431,7 +431,8 @@ form label.top input:required:valid {
    flex-direction: row;
 }
 
-.cards { 
+.cards {
+    margin-top: 15px; 
     margin: auto; 
     /*margin-bottom: 15px;*/
     display: grid;

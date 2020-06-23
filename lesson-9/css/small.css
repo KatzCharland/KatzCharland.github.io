@@ -429,6 +429,7 @@ form label.top input:required:valid {
    display: flex;
    justify-content: center;
    flex-direction: row;
+   margin-bottom: 15px;
 }
 
 .cards {

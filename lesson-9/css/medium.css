@@ -1,5 +1,8 @@
 @media only screen and (min-width: 32.5em) {
 
+ main {
+     border: solid thick rgb(190, 85, 14);
+ }
 
 
     nav ul {

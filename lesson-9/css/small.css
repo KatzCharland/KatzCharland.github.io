@@ -348,7 +348,7 @@ nav ul li.active a {
 
 /*----------- MAIN --------------*/
 main {
-    padding: 0 2%;
+   /* padding: 0 2%;*/
     min-height: 20rem;
     border: solid thick rgb(190, 85, 14);
 }

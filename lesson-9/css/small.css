@@ -350,6 +350,7 @@ nav ul li.active a {
 main {
     padding: 0 2%;
     min-height: 20rem;
+    border: solid thick rgb(190, 85, 14);
 }
 
 /*----------Form-------------------*/

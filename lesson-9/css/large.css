@@ -152,10 +152,6 @@
        grid-column: 2; 
         grid-row: 1;
     }
-    .wireframe {
-       text-align: center;
-       margin-top: 5px;
-       margin-bottom: 5px;
-    }
+    
 }
 

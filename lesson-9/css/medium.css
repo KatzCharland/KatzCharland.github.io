@@ -2,6 +2,7 @@
 
  main {
      border: solid thick rgb(190, 85, 14);
+     align-content: space-around;
  }
 
 

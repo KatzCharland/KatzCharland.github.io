@@ -28,7 +28,7 @@ fetch(requestURL)
              name.textContent = towns[i].name;
              motto.textContent = '\"' + towns[i].motto + '\"';
              yearFounded.textContent = 'Founded: ' + towns[i].yearFounded;
-             population.textContent ='Population: ' + towns[i].population;
+             population.textContent ='Population: ' + towns[i].currentPopulation;
              averageRain.textContent = 'Average Rainfall:' + towns[i].averageRainfall;
             //Inserting elements into image section
            card.appendChild(photo);

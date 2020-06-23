@@ -128,6 +128,16 @@
 
     }
 
+    .towns img {
+        padding: 15px;
+        height: 300px;
+        width: 100%;
+    }
+
+
+
+
+
     .towns {
         display: grid;
         grid-template-columns: 1f 1f 1f; 

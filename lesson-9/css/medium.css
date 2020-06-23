@@ -101,8 +101,8 @@
        justify-content: center;
        flex-direction: row;
        position: relative;
-
-
+       margin-bottom: 15px;
+       
     }
 
  .cards {

@@ -128,4 +128,10 @@
         flex-direction: row-reverse;
         grid-row: 2;
     }
+
+    .wireframe {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }

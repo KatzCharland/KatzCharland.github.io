@@ -424,8 +424,8 @@ form label.top input:required:valid {
 
 .iframe-container {
    margin: auto;
-   width: "70%";
-   height: "300";
+   width: 70%;
+   height: 300px;
 
 
 }

@@ -423,12 +423,16 @@ form label.top input:required:valid {
 }
 
 .iframe-container {
-   width: 90%;
+   width: 100%;
    height: 300px;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
 }
 
 .cards { 
-    margin-bottom: 15px;
+    margin: auto; 
+    /*margin-bottom: 15px;*/
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;

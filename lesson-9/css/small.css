@@ -446,8 +446,9 @@ form label.top input:required:valid {
 }
 .towns img {
     padding: 15px;
-    height: auto;
     width: 100%;
+    height: auto;
+  
 
 }
 .towns section {

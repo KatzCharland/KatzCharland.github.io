@@ -424,12 +424,11 @@ form label.top input:required:valid {
 }
 
 .iframe-container {
-   height: 315px;
+   width:100%;
    display: flex;
    justify-content: center;
    margin-bottom: 15px;
-   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-   allowfullscreen;
+   position: relative;
 }
 
 .cards {

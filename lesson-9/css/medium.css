@@ -132,7 +132,7 @@
 
     .towns section:nth-child(2) {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         grid-row: 1;
     }
 

@@ -96,14 +96,6 @@
     }
 
 
-   /* .iframe-container {
-     
-       justify-content: center;
-       flex-direction: row;
-       position: relative;
-       margin-bottom: 15px;
-       
-    }*/
 
  .cards {
     
@@ -124,6 +116,7 @@
 
     .towns {
         display: grid;
+        align-items: center;
     }
 
     .towns img {

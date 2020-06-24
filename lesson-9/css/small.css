@@ -442,6 +442,8 @@ form label.top input:required:valid {
     text-align: center;
     height: 300px;
     width: 90%;
+    align-items: center;
+    justify-content: center;
 
 }
 .towns img {

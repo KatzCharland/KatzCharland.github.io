@@ -139,7 +139,7 @@
 
     .towns {
         display: grid;
-        grid-template-columns: 1f 1f 1f; 
+        grid-template-columns: 1f 1f 1fr; 
         margin: 0;
         grid-gap: 6px;
         align-items: center;

@@ -27,7 +27,7 @@ fetch(apiURL)
                      day + 1
                  }
                  ').textContent = weekday[d.getDate()]; 
-                 day++;
+                 day++
     });
                 
    

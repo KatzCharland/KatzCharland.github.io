@@ -1,10 +1,7 @@
 const apiURL = 'http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=626e9cefb93369cce66d9f4b2afe71fc&units=imperial';
 fetch(apiURL)
-  
- /*var weekcon = new Array(5)*/
-
-     .then((response) => response.json())
-     .then((jsObject) => {
+   .then((response) => response.json())
+   .then((jsObject) => {
               console.log(jsObject)
               const currrentTemp = document.querySelector('#cuurnt-temp')
               const icon =document.querySelector('img');
@@ -15,7 +12,10 @@ fetch(apiURL)
               const desc = jsObject.weather[0].description;
 
              icon.setAttribute('src', imagesrc);
-             icon.setAttribute('alt', desc); 
+             icon.setAttribute('alt', desc);
+             
+             
+
               
 
 

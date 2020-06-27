@@ -206,6 +206,7 @@ ul {
 
 body {
     background-color: rgb(193, 184, 184);
+    text-align: center;
 }
 
 #pancakes.appear {

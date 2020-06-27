@@ -21,21 +21,16 @@ fetch(apiURL)
 
  let day = 0;
  fivedayforecast.forEach('forecast => {
-         let d = new Date=(forecast.dt.txt;
-         document.getElementByid(forecast${day+1}').textContent = forecast.main.temp; 
+         let d = new Date=(forecast.dt.txt)
+         document.getElementByid('forecast${day+1}').textContent = forecast.main.temp; 
              document.getElementByid(forecast$ {
                      day + 1
                  }
                  ').textContent = weekday[d.getDate()]; 
                  day++;
-                }
-    }
-
-
-
-
-
-  })
+    });
+                
+   
 
 
 

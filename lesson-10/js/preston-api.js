@@ -8,7 +8,7 @@ fetch(apiURL)
             const temp = document.getElementById('temp').textContent = jsObject.main.temp;
             const wind = document.getElementById('wind').textContent = jsObject.wind.speed;
             const humidity = document.getElementById('humidity').textContent = jsObject.main.humidity;
-            
+ 
            
 
             const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`

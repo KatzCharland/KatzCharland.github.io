@@ -3,8 +3,9 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
             console.log(jsObject)
-            const currentTemp = document.querySelector('#current-temp')
-            const icon = document.querySelector('img');
+            const currentTemp = document.querySelector('#current-temp');
+            const wind = document.querySelector('#wind');
+            const humid= document.querySelector('#humid');
 
             currentTemp.textContent = jsObject.main.temp
 

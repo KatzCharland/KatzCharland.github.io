@@ -3,11 +3,11 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
             console.log(jsObject)
-            const temp = document.querySelector('#temp');
-            const wind = document.querySelector('#wind');
-            const humid= document.querySelector('#humid');
-            const current=document.querySelector('#currently');
-            temp.textContent = jsObject.main.temp;
+            const temp = document.getElementById('#temp').textContent = jsObject.weather[0].main.temp;
+            const wind = document.getElementById('#wind').textContent = jsObject.wind;
+            const humid = document.getElementById('#humid').textContent = jsObject.humid;
+            const current = document.getElementById('#currently').textContent = jsObject.current;
+            
 
             const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`
             const desc = jsObject.weather[0].description;

@@ -23,16 +23,31 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
             console.log(jsObject)
+  var count = 1;
+
+  jsObject.list.forEach(getData);
+
+  function getData(item) {
+
+      if (item.dt_txt.includes("18:00:00")) {
+          document.getElementById('day' + count).setAttribute('src', 'https://openweathermap.org/img/w/' + item.weather[0].icon + '.png');
+          document.getElementById('day' + count).setAttribute('alt', item.weather[0].description + ' icon');
+          document.getElementById('day' + count + 'temp').textContent = item.main.temp_max.toFixed(0);
+          count++;
+      }
+  }
+
+  });
 
         const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'))
         const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
- let day = 0;
+ /*let day = 0;
  fivedayforecast.forEach('forecast => {
          let d = new Date=(forecast.dt.txt)
          document.getElementByid(forecast${day+1}').textContent = forecast.main.temp; 
              document.getElementByid(forecast$ {day + 1}').textContent = weekday[d.getDate()]; 
-                 day++
+                 day++*/
     });
                 
    

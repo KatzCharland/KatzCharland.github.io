@@ -13,11 +13,18 @@ fetch(apiURL)
 
             icon.setAttribute('src', imagesrc);
             icon.setAttribute('alt', desc);
+    }) ;
 
 
- const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'))
- console.log(fivedayforcast)
- const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+const apiURLforecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=626e9cefb93369cce66d9f4b2afe71fc&units=imperial';
+
+fetch(apiURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+            console.log(jsObject)
+
+        const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'))
+        const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
  let day = 0;
  fivedayforecast.forEach('forecast => {

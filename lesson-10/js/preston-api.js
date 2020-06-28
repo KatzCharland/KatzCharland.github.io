@@ -3,21 +3,23 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
             console.log(jsObject)
-            const temp = document.getElementById('#temp').textContent = jsObject.weather[0].main.temp;
-            const wind = document.getElementById('#wind').textContent = jsObject.wind;
-            const humid = document.getElementById('#humid').textContent = jsObject.humid;
-            const current = document.getElementById('#currently').textContent = jsObject.current;
+
+            const current = document.getElementById('currently').textContent = jsObject.current;
+            const temp = document.getElementById('temp').textContent = jsObject.main.temp;
+            const windSpeed = document.getElementById('wind').textContent = jsObject.windSpeed;
+            const humidity = document.getElementById('humid').textContent = jsObject.main.humid;
+            const desc = jsObject.weather[0].description; 
             
 
             const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`
-            const desc = jsObject.weather[0].description;
+      
 
             icon.setAttribute('src', imagesrc);
             icon.setAttribute('alt', desc);
     }) ;
 
 /*forecast*/
-const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=626e9cefb93369cce66d9f4b2afe71fc&units=imperial';
+const apiURLforecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=626e9cefb93369cce66d9f4b2afe71fc&units=imperial';
 
 fetch(apiURL)
     .then((response) => response.json())
@@ -52,12 +54,12 @@ fetch(apiURL)
                 
   /*Wind Chill*/
 (function () {
-    const high = document.getElementById('high').innerHTML;
+    const temp= document.getElementById('temp').innerHTML;
     const windSpeed = document.getElementById('windSpeed').innerHTML;
-    let windChill = 35.74 + (0.6215 * high) - (35.75 * (windSpeed ** .16)) + (0.4275 * high * (windSpeed ** .16));
+    let windChill = 35.74 + (0.6215 * temp) - (35.75 * (windSpeed ** .16)) + (0.4275 * temp * (windSpeed ** .16));
 
 
-    if (high <= 50 && windSpeed > 3) {
+    if (temp <= 50 && windSpeed > 3) {
         windChill = Math.round(windChill);
     } else {
         windChill = " NA";

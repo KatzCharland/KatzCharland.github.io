@@ -6,7 +6,7 @@ fetch(apiURL)
 
             const current = document.getElementById('currently').textContent = jsObject.current;
             const temp = document.getElementById('temp').textContent = jsObject.main.temp;
-            const windSpeed = document.getElementById('wind').textContent = jsObject.windSpeed;
+            const windSpeed = document.getElementById('windSpeed').textContent = jsObject.windSpeed;
             const humidity = document.getElementById('humid').textContent = jsObject.main.humid;
             const desc = jsObject.weather[0].description; 
             
@@ -21,7 +21,7 @@ fetch(apiURL)
 /*forecast*/
 const apiURLforecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=626e9cefb93369cce66d9f4b2afe71fc&units=imperial';
 
-fetch(apiURL)
+fetch(apiURLforecast)
     .then((response) => response.json())
     .then((jsObject) => {
             console.log(jsObject)

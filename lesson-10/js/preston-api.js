@@ -6,10 +6,10 @@ fetch(apiURL)
 
             const current = document.getElementById('currently').textContent = jsObject.current;
             const temp = document.getElementById('temp').textContent = jsObject.main.temp;
-            const windSpeed = document.getElementById('windSpeed').textContent = jsObject.windSpeed;
-            const humidity = document.getElementById('humid').textContent = jsObject.main.humid;
-            const desc = jsObject.weather[0].description; 
-            
+            const wind = document.getElementById('windSpeed').textContent = jsObject.wind;
+            const humid = document.getElementById('humidity).textContent = jsObject.main.humid;
+            const description = jsObject.weather[0].description; 
+           
 
             const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`
       

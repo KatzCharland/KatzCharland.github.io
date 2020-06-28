@@ -4,11 +4,11 @@ fetch(apiURL)
     .then((jsObject) => {
             console.log(jsObject)
 
-            const current = document.getElementById('currently').textContent = jsObject.current;
+            const current = document.getElementById('current').textContent = jsObject.weather[0].description;
             const temp = document.getElementById('temp').textContent = jsObject.main.temp;
-            const windSpeed = document.getElementById('windSpeed').textContent = jsObject.windSpeed;
+            const wind = document.getElementById('wind').textContent = jsObject.wind.speed;
             const humidity = document.getElementById('humidity').textContent = jsObject.main.humidity;
-            const description = jsObject.weather[0].description; 
+            
            
 
             const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`

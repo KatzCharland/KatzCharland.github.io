@@ -6,8 +6,8 @@ fetch(apiURL)
 
             const current = document.getElementById('currently').textContent = jsObject.current;
             const temp = document.getElementById('temp').textContent = jsObject.main.temp;
-            const wind = document.getElementById('windSpeed').textContent = jsObject.wind;
-            const humid = document.getElementById('humidity).textContent = jsObject.main.humid;
+            const windSpeed = document.getElementById('windSpeed').textContent = jsObject.windSpeed;
+            const humidity = document.getElementById('humidity').textContent = jsObject.main.humidity;
             const description = jsObject.weather[0].description; 
            
 

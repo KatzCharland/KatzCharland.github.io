@@ -3,10 +3,10 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
             console.log(jsObject)
-            const currentTemp = document.querySelector('#current-temp');
+            const temp = document.querySelector('#temp');
             const wind = document.querySelector('#wind');
             const humid= document.querySelector('#humid');
-
+            const current=document.querySelector('#currently')
             currentTemp.textContent = jsObject.main.temp
 
             const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`
@@ -37,7 +37,7 @@ fetch(apiURL)
       }
   }
 
-  });
+ 
 
         const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'))
         const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];

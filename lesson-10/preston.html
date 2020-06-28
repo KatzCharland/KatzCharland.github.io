@@ -79,33 +79,47 @@
 
         <section class="forecast">
             <h2>5 Day Forecast</h2>
-            <div class="flex-col">
-                <div class="clan">
-                    <span class="col-head">Monday</span>
-                    <img class="wicon" src="images/sunny.png" height="170" width="121" alt="Sunny">
-                    <span class="data">58°/40°</span>
-                </div>
-                <div class="clan">
-                    <span class="col-head">Tuesday</span>
-                    <img class="wicon" src="images/partly_cloudy.jpg" height="170" width="121" alt="Sun with Clouds">
-                    <span class="data">69°/54°</span>
-                </div>
-                <div class="clan">
-                    <span class="col-head">Wednesday</span>
-                    <img class="wicon" src="images/rain.png" height="170" width="121" alt="Cloudy with Rain">
-                    <span class="data">77°/58°</span>
-                </div>
-                <div class="clan">
-                    <span class="col-head">Thursday</span>
-                    <img class="wicon" src="images/sunny.png" height="170" width="121" alt="Sunny and Warm">
-                    <span class="data">76°/40°</span>
-                </div>
-                <div class="clan">
-                    <span class="col-head">Friday</span>
-                    <img class="wicon" src="images/thunder_lightning.jpeg" height="170" width="121" alt="cloudy">
-                    <span class="data">72°/53°</span>
-                </div>
-            </div>
+            <table>
+                <thead>
+                  <tr>
+                        <th class="days">
+                            <span id="weekday1">Fri</span></th>
+                        <th class="days">
+                            <span id="weekday2">Sat</span></th>
+                         <th class="days">
+                             <span id="weekday3">Sun</span></th>
+                         <th class="days">
+                             <span id="weekday4">Mon</span></th>
+                         <th class="days">
+                             <span id="weekday5">Tue</span></th>
+                  </tr> 
+                   
+                  <tr>
+                     <td>
+                         <img class="day1" src="images/sunny.png" alt="Sunny">
+                        <span id="day1temp">65°F</span> 
+                        </td> 
+                  </tr> 
+                  <td>
+                      <img class="day2" src="images/sunny.png" alt="Sunny">
+                      <span id="day2temp">78°F</span>
+                  </td>
+
+                  <td>
+                      <img class="day3" src="images/partly_cloudy.jpg" alt="Partly Cloudy">
+                      <span id="day3temp">60°F</span>
+                  </td>
+                  <td>
+                      <img class="day4" src="images/rain.png" alt="Rain">
+                      <span id="day4temp">65°F</span>
+                  </td>
+                  <td>
+                      <img class="day5" src="images/thunder_lightning.jpeg" alt="Thunder Storm">
+                      <span id="day5temp">65°F</span>
+                  </td>
+
+                </thead>
+            </table>
         </section>
 
 

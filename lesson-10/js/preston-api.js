@@ -4,7 +4,7 @@ fetch(apiURL)
     .then((jsObject) => {
         
 
-            const current = document.getElementById('currently ').textContent = jsObject.weather[0].description;
+            const current = document.getElementById('currently').textContent = jsObject.weather[0].description;
             const temp = document.getElementById('temp').textContent = jsObject.main.temp;
             const wind = document.getElementById('windSpeed').textContent = jsObject.wind.speed;
             const humid = document.getElementById('humidity').textContent = jsObject.main.humidity + '%';
@@ -46,10 +46,12 @@ fetch(apiURLforecast)
  fivedayforecast.forEach(forecast => {
     let d = new Date(forecast.dt_txt); 
        document.getElementById(`data${day+1}`).textContent = forecast.main.temp;
-       document.getElementById(`clan{day+1}`).textContent =weekdays[d.getDay()]; 
+       document.getElementById(`col-head${day+1}`).textContent =weekdays[d.getDay()]; 
+       
+        document.getElementById(`clan${day+1}`).alt= forecast.weather[0].description
+        document.getElementById('clan' + (day + 1)).src = "https://openweathermap.org/img/wn/" + + ".png";
+
         day++;
-        document.getElementById(`wicon${day+1}`).alt= forecast.weather[0].description
-        document.getElementById('wicon' + (day + 1)).src = "https://openweathermap.org/img/wn/10d2x.png";
     });
                 
  

@@ -49,7 +49,7 @@ fetch(apiURLforecast)
        document.getElementById(`data${day+1}`).textContent = forecast.main.temp;
        document.getElementById(`wicon${day+1}`).textContent =weekday[day.getDay()]; 
         day++;
-        document.getElementById()
+        document.getElementById(`wicon${day+1}`).alt= forecast.weather[0].description;
     });
                 
  

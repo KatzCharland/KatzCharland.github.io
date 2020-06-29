@@ -39,7 +39,6 @@ fetch(apiURLforecast)
 
     const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'))
         
-        console.log(fivedayforecast);
 
     const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
      
@@ -47,9 +46,10 @@ fetch(apiURLforecast)
  fivedayforecast.forEach(forecast => {
     let d = new Date(forecast.dt_txt); 
        document.getElementById(`data${day+1}`).textContent = forecast.main.temp;
-       document.getElementById(`wicon${day+1}`).textContent =weekday[day.getDay()]; 
+       document.getElementById(`wicon{day+1}`).textContent =weekdays[d.getDay()]; 
         day++;
-        document.getElementById(`wicon${day+1}`).alt= forecast.weather[0].description;
+        document.getElementById(`wicon${day+1}`).alt= forecast.weather[0].description
+        document.getElementById('wicon' + (day + 1)).src = "https://openweathermap.org/img/wn/10d2x.png";
     });
                 
  

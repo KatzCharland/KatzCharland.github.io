@@ -6,8 +6,8 @@ fetch(apiURL)
 
             const current = document.getElementById('currently').textContent = jsObject.weather[0].description;
             const temp = document.getElementById('temp').textContent = jsObject.main.temp;
-            const wind = document.getElementById('wind').textContent = jsObject.wind.speed;
-            const humid = document.getElementById('humid').textContent = jsObject.main.humidity + '%';
+            const wind = document.getElementById('windSpeed').textContent = jsObject.wind.speed;
+            const humid = document.getElementById('humidity').textContent = jsObject.main.humidity + '%';
     });       
            
             
@@ -46,9 +46,10 @@ fetch(apiURLforecast)
  let day = 0;
  fivedayforecast.forEach(forecast => {
     let d = new Date(forecast.dt_txt); 
-       document.getElementByid(`data${day+1}`).textContent = forecast.main.temp;
-       document.getElementById(`col-head${day+1}`).textContent =weekday[day.getDAy()]; 
+       document.getElementById(`data${day+1}`).textContent = forecast.main.temp;
+       document.getElementById(`wicon${day+1}`).textContent =weekday[day.getDay()]; 
         day++;
+        document.getElementById()
     });
                 
  

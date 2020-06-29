@@ -5,9 +5,9 @@ fetch(apiURL)
             console.log(jsObject)
 
             const current = document.getElementById('currently').textContent = jsObject.weather[0].description;
-            const temp = document.getElementById('temperature').textContent = jsObject.main.temp;
-            const wind = document.getElementById('wind').textContent = jsObject.main.wind.speed;
-            const humidity = document.getElementById('humidity').textContent = jsObject.main.humidity;
+            const temp = document.getElementById('temp').textContent = jsObject.main.temp;
+            const wind = document.getElementById('wind').textContent = jsObject.wind.speed;
+            const humid = document.getElementById('humid').textContent = jsObject.main.humidity + '%';
            
            
             const description =document.getElementById('description').textContent = jsObject.description;

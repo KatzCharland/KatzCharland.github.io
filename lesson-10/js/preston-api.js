@@ -5,8 +5,8 @@ fetch(apiURL)
         
 
             const current = document.getElementById('currently').textContent = jsObject.weather[0].description;
-            const temp = document.getElementById('temp').textContent = jsObject.main.temp;
-            const wind = document.getElementById('windSpeed').textContent = jsObject.wind.speed;
+            const temp = document.getElementById('temp').textContent = Math.round(jsObject.main.temp) + '°F';
+            const wind = document.getElementById('windSpeed').textContent = Math.round(jsObject.wind.speed) + "mph";
             const humid = document.getElementById('humidity').textContent = jsObject.main.humidity + '%';
     });       
           
@@ -49,7 +49,7 @@ fetch(apiURLforecast)
        document.getElementById(`col-head${day+1}`).textContent =weekdays[d.getDay()]; 
        
         document.getElementById(`clan${day+1}`).alt= forecast.weather[0].description
-        document.getElementById('clan' + (day + 1)).src = "https://openweathermap.org/img/wn/" + + ".png";
+        document.getElementById('clan' + (day + 1)).src = "https://openweathermap.org/img/wn/" + forecast.weather[0].icon + "@2x.png";
 
         day++;
     });

@@ -8,15 +8,9 @@ fetch(apiURL)
             const temp = document.getElementById('temp').textContent = jsObject.main.temp;
             const wind = document.getElementById('wind').textContent = jsObject.wind.speed;
             const humid = document.getElementById('humid').textContent = jsObject.main.humidity + '%';
+    });       
            
-           
-            const description =document.getElementById('description').textContent = jsObject.description;
-            const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`
-      
-
-            icon.setAttribute('src', imagesrc);
-            icon.setAttribute('alt', desc);
-    }) ;
+            
 
  /*Wind Chill*/
  (function () {

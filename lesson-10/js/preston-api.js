@@ -5,11 +5,11 @@ fetch(apiURL)
         
 
             const current = document.getElementById('currently ').textContent = jsObject.weather[0].description;
-            const temp = document.getElementById('temp').textContent = Math.round(jsObject.main.temp);
-            const wind = document.getElementById('windSpeed').textContent = Math.round(jsObject.wind.speed);
+            const temp = document.getElementById('temp').textContent = jsObject.main.temp;
+            const wind = document.getElementById('windSpeed').textContent = jsObject.wind.speed;
             const humid = document.getElementById('humidity').textContent = jsObject.main.humidity + '%';
     });       
-           
+          
             
 
  /*Wind Chill*/

@@ -49,7 +49,7 @@ fetch(apiURLforecast)
        document.getElementById(`wicon{day+1}`).textContent =weekdays[d.getDay()]; 
         day++;
         document.getElementById(`wicon${day+1}`).alt= forecast.weather[0].description
-        document.getElementById('wicon' + (day + 1)).src = "https://openweathermap.org/img/wn/10d2x.png";
+        /*document.getElementById('wicon' + (day + 1)).src = "https://openweathermap.org/img/wn/10d2x.png";*/
     });
                 
  

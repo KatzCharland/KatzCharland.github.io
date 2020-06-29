@@ -4,10 +4,12 @@ fetch(apiURL)
     .then((jsObject) => {
             console.log(jsObject)
 
-            const current = document.getElementById('current').textContent = jsObject.weather[0].description;
-            const temp = document.getElementById('temp').textContent = jsObject.main.temp;
+            const current = document.getElementById('currently').textContent = jsObject.weather[0].description;
+            const temp = document.getElementById('temperature').textContent = jsObject.main.temp;
             const wind = document.getElementById('wind').textContent = jsObject.main.wind.speed;
             const humidity = document.getElementById('humidity').textContent = jsObject.main.humidity;
+           
+           
             const description =document.getElementById('description').textContent = jsObject.description;
             const imagesrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`
       
@@ -15,6 +17,29 @@ fetch(apiURL)
             icon.setAttribute('src', imagesrc);
             icon.setAttribute('alt', desc);
     }) ;
+
+ /*Wind Chill*/
+ (function () {
+     const temp = document.getElementById('temp');
+     const windSpeed = document.getElementById('wind');
+     let windChill = 35.74 + (0.6215 * temp) - (35.75 * (windSpeed ** .16)) + (0.4275 * temp * (windSpeed ** .16));
+
+
+     if (temp <= 50 && windSpeed > 3) {
+         windChill = Math.round(windChill);
+     } else {
+         windChill = " NA";
+     }
+     document.getElementById('windChill').innerHTML = windChill;
+ }());
+
+
+
+
+
+
+
+
 
 /*forecast*/
 const apiURLforecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=626e9cefb93369cce66d9f4b2afe71fc&units=imperial';
@@ -27,7 +52,7 @@ fetch(apiURLforecast)
 
   jsObject.list.forEach(getData);
 
-  function getData(item) {
+  function getData(forecast) {
 
       if (item.dt_txt.includes("18:00:00")) {
           document.getElementById('day' + count).setAttribute('src', 'https://openweathermap.org/img/w/' + item.weather[0].icon + '.png');
@@ -50,21 +75,7 @@ fetch(apiURLforecast)
                  day++*/
     });
                 
-  /*Wind Chill*/
-(function () {
-    const temp= document.getElementById('temp').innerHTML;
-    const windSpeed = document.getElementById('windSpeed').innerHTML;
-    let windChill = 35.74 + (0.6215 * temp) - (35.75 * (windSpeed ** .16)) + (0.4275 * temp * (windSpeed ** .16));
-
-
-    if (temp <= 50 && windSpeed > 3) {
-        windChill = Math.round(windChill);
-    } else {
-        windChill = " NA";
-    }
-    document.getElementById('windChill').innerHTML = windChill;
-});
-
+ 
 
 
 

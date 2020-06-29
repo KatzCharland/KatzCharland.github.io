@@ -45,7 +45,7 @@ fetch(apiURLforecast)
      
  let day = 0;
  fivedayforecast.forEach(forecast => {
-    let d = new Date(forecast.dt_tx); 
+    let d = new Date(forecast.dt_txt); 
        document.getElementByid(`data${day+1}`).textContent = forecast.main.temp;
        document.getElementById(`col-head${day+1}`).textContent =weekday[day.getDAy()]; 
         day++;

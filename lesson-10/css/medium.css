@@ -1,6 +1,19 @@
 @media only screen and (min-width: 32.5em) {
-   
+ body {
+     margin: 0 auto;
+     max-width: 1060px
+ } 
   
+    main{
+      margin: 0 auto;
+      max-width:1060px;
+
+  } 
+ 
+  header, footer {
+      margin: 0 auto;
+      max-width: 1060px;
+  }
 
      .summary-scenerios {
          position: absolute;
@@ -31,6 +44,8 @@
         background-color: #939995;
         position: relative;
         display: flex;
+        margin: 0 auto;
+        max-width: 1060px;
 
     }
 
@@ -107,8 +122,9 @@
 
     .hero {
         display: block;
-         margin: auto;
+         margin: 0 auto;
         position: relative;
+         max-width: 1060px
     }
 
     .artpic {

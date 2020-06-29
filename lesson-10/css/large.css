@@ -1,6 +1,20 @@
 @media only screen and (min-width: 64em) {
+   body {
+       margin: 0 auto;
+       max-width: 1060px
+   } 
+    
+    
+    
     main {
         border: solid thick rgb(190, 85, 14);
+        margin: 0 auto;
+        max-width: 1060px;
+    }
+
+    header, footer {
+        margin: 0 auto;
+        max-width: 1060px;
     }
 
     .summary-scenerios {
@@ -25,7 +39,7 @@
         background-color: #939995;
         position: relative;
         display: flex;
-
+        max-width: 1060px;
     }
 
     .navigation li:nth-child(1) {

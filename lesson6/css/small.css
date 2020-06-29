@@ -1,3 +1,13 @@
+body {
+    margin: 0 auto;
+    max-width: 1060px
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1060px
+}
+
 .hero {
     width: 95%;
     margin: auto;
@@ -44,6 +54,8 @@ footer {
     flex-wrap: nowrap;
     justify-content: center;
     border-radius: 25px;
+    margin: 0 auto;
+    max-width: 1060px;
 }
 
 footer {

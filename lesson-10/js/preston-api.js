@@ -43,8 +43,9 @@ fetch(apiURLforecast)
     const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
      
  let day = 0;
- fivedayforecast.forEach(forecast => {
-    let d = new Date(forecast.dt_txt); 
+ fivedayforecast.forEach(forecast => 
+    var ts = forecast.dt_txt.replace(' ', 'T');
+    let d = new Date(ts); 
        document.getElementById(`data${day+1}`).textContent = Math.round(forecast.main.temp);
        document.getElementById(`col-head${day+1}`).textContent =weekdays[d.getDay()]; 
     

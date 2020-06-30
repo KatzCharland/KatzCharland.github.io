@@ -45,10 +45,10 @@ fetch(apiURLforecast)
  let day = 0;
  fivedayforecast.forEach(forecast => {
     let d = new Date(forecast.dt_txt); 
-       document.getElementById(`data${day+1}`).textContent = forecast.main.temp;
+       document.getElementById(`data${day+1}`).textContent = Math.round(forecast.main.temp);
        document.getElementById(`col-head${day+1}`).textContent =weekdays[d.getDay()]; 
-       
-        document.getElementById(`clan${day+1}`).alt= forecast.weather[0].description
+      console.log(d.getDay());
+        document.getElementById(`clan${day+1}`).alt= forecast.weather[0].description;
         document.getElementById('clan' + (day + 1)).src = "https://openweathermap.org/img/wn/" + forecast.weather[0].icon + "@2x.png";
 
         day++;

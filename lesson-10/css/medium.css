@@ -24,14 +24,22 @@
          background: #ffffff5e;
          max-height: 300px;
          padding: 0 0 0 10px;
-         width: 155px;
+         width: 225px;
         
 
      }
   
      .summary-scenerios p {
          margin: 1em;
+
      }
+
+
+     .summary-scenerios p span {
+         margin: left;
+     }
+
+
 
     nav ul {
         display: flex;

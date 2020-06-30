@@ -1,5 +1,14 @@
 @media only screen and (min-width: 32.5em) {
-   .summary-scenerios {
+  body {
+    margin: 0 auto;
+    max-width: 1060px;
+  }
+   
+ 
+  
+  
+  
+    .summary-scenerios {
        position: absolute;
        margin: 0 0 50px 20px;
        border: 1px solid lightblue;

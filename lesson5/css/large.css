@@ -1,5 +1,12 @@
 @media only screen and (min-width: 64em) {
-main {
+    body {
+        margin: 0 auto;
+        max-width: 1060px
+    }
+
+
+
+    main {
     border: solid thick rgb(190, 85, 14); 
     }
 

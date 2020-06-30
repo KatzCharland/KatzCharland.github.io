@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>API Idaho's Weather Source | Town of Preston| Katz Charland</title>
+    <meta name="description" content="Idaho's ReliableWeather Source">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One%7cOpen+Sans%7cPlayfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="smallIcon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <div id="pancakes" class="appear">
+        <h1>Saturday is Preston Pancakes in the Park! 7:00 am at the City Park!</h1>
+    </div>
+
+    <header>
+        <img class="logo" src="images/weather_logo.png" alt="Weather Logo">
+
+
+        <div id="title">
+            <h1 id="siteName"> Idaho's Reliable Weather Source</h1>
+            <div id="slogan">
+                <h2><em>Weather Coming Your Way</em></h2>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776;
+                    Menu</a></li>
+            <li><a class="#" href="../lesson-9/index.html">Home</a></li>
+            <li><a class="active" href="../lesson-10/preston.html">Preston</a></li>
+            <li><a class="#" href="../lesson-11/sodaSprings.html">Soda Springs</a></li>
+            <li><a class="#" href="../lesson-11/fishHaven.html">Fish Haven</a></li>
+            <li><a class="#" href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a class="#" href="../lesson7/gallery7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+
+        <h2>Preston</h2>
+        <div class="hero">
+            <section id="heroImage">
+                <picture>
+                    <img src="images/moose.jpg" alt="Scenic Preston">
+                </picture>
+            </section>
+
+
+
+
+
+            <section class="summary-scenerios">
+
+                <h3>Weather Summary</h3>
+
+                <p>Currently: <span id="currently"></span></p>
+                <p>Temperature: <span id="temp"> </span> </p>
+                <p>Wind Chill: <span id="windChill"></span></p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Wind Speed: <span id="windSpeed"></span></p>
+            </section>
+        </div>
+
+
+
+        <section class="forecast">
+            <h2>5 Day Forecast</h2>
+            <div class="flex-col">
+                <div class="clan">
+                    <span class="col-head" id="col-head1"></span>
+                    <img class="wicon" id="clan1" src="#" alt="">
+                    <span class="data" id="data1"></span>
+                </div>
+                <div class="clan">
+                    <span class="col-head" id="col-head2"></span>
+                    <img class="wicon" id="clan2" src="#" alt="">
+                    <span class="data" id="data2"></span>
+                </div>
+                <div class="clan">
+                    <span class="col-head" id="col-head3"></span>
+                    <img class="wicon" id="clan3" src="#" alt="">
+                    <span class="data" id="data3"></span>
+                </div>
+                <div class="clan">
+                    <span class="col-head" id="col-head4"></span>
+                    <img class="wicon" id="clan4" src="#" alt="">
+                    <span class="data" id="data4"></span>
+                </div>
+                <div class="clan">
+                    <span class="col-head" id="col-head5"></span>
+                    <img class="wicon" id="clan5" src="#" alt="">
+                    <span class="data" id="data5"></span>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="content">
+            <article>
+                <img class="artpic" src="images/barber-article.jpg" alt="Barber Shop Line">
+                <h2>Time for a Trim</h2>
+                <h3>By Necia P. Seamons Citizen Editor</h3>
+
+                <p>After waiting two months for a hair cut, one more hour wasn’t so bad, said Gary Hymas, Treasureton.
+                    He was
+                    one of 14 people lined up Saturday morning at Weldon’s Barbershop in Preston when Weldon Cheney
+                    arrived
+                    to open his shop. Some of them had been there for 45 minutes already, waiting. Cheney closed his
+                    barbershop on March 24 due to the coronavirus pandemic scare.</p>
+            </article>
+        </div>
+
+        <div class="contactInfo">
+
+            <img class="map" src="images/map_preston.png" alt="Map of preston_idaho">
+
+            <div class="address">
+                <h2>Contact Information</h2>
+                <p>Idaho's Reliable Weather</p>
+                <p>64 S State Street</p>
+                <p>Preston, ID 83263</p>
+                <p>Phone: 208-252-5010 </p>
+                <p>Email: westernwhitepinestate.info </p>
+            </div>
+
+        </div>
+    </main>
+
+
+    <footer>
+        <div> &copy; 2020 Idaho's Reliable Source | Attributions | Katherine Charland |
+            <br>
+            Last Updated: <span id="currentDate"></span>
+            <script src="js/currentDate.js"></script>
+        </div>​
+    </footer>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/friday.js"></script>
+    <script src="js/preston-api.js"></script>
+</body>
+
+</html>

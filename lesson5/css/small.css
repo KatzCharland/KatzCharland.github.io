@@ -1,3 +1,10 @@
+body {
+    margin: 0 auto;
+    max-width: 1060px;
+    
+}
+
+
 .hero {
     width: 95%;
     margin: auto;

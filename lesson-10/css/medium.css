@@ -101,10 +101,10 @@
          border: 1px solid black;
     }
 
-    .col-head {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: flex-start;
+    .col-head { 
+        width: 100%;
+        text-align: center;
+        background-color: salmon;
         border-bottom: 1px solid black;
     }
 

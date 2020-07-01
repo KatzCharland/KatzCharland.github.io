@@ -1,3 +1,12 @@
+body {
+    margin: 0 auto;
+    max-width: 1060;
+}
+
+
+
+
+
 header, footer {
     background-color: #949BFF;
     color: rgb(190, 85, 14);
@@ -350,7 +359,7 @@ nav ul li.active a {
 main {
    /* padding: 0 2%;*/
     min-height: 20rem;
-    border: solid thick rgb(190, 85, 14);
+
 }
 
 /*----------Form-------------------*/
@@ -430,12 +439,14 @@ form label.top input:required:valid {
    justify-content: center;
    margin-bottom: 15px;
    position: relative;
-   background-size: 0em;
+   background-size: 1000em;
+   
+   
 }
 
 .cards {
     margin-top: 15px; 
-    margin: auto; 
+    margin: auto;
     /*margin-bottom: 15px;*/
     display: grid;
     grid-template-columns: 1fr;

@@ -472,9 +472,9 @@ form label.top input:required:valid {
 
 .towns h2 {
     color: black;
-    font-family: Francois One, serif;
-    font-style: italic;
-    font-size: 18px;
+    font-family: Playfair Display, serif;
+    font-style:  italic;
+    font-size:  14px;
   
 
 }

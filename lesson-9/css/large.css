@@ -1,6 +1,7 @@
 @media only screen and (min-width: 64em) {
     main {
-        border: solid thick rgb(190, 85, 14);
+      margin: 0 auto;
+      max-width: 1060px;
         align-content: space-around;
     }
 
@@ -167,8 +168,7 @@
     }
 
     iframe {
-        width: 560px;
-        height: 315p;
+        Width: 100%; 
         border: 0; 
     }
  

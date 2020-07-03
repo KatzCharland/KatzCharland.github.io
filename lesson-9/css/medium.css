@@ -1,6 +1,10 @@
 @media only screen and (min-width: 32.5em) {
-
- main {
+    body {
+        margin: 0 auto;
+        max-width: 1060px;
+    }
+ 
+    main {
     margin: 0 auto;
     max-width: 1060px; 
      align-content: space-around;
@@ -96,15 +100,16 @@
         padding: .5rem 1rem;
     }
 
-.iframe-container iframe {
+.iframe {
     position: relative;
     width: 100%;
-    height: auto;
-   top: 0;
-    left: 0;
-    background-size: 0em;
-    max-width: 560; 
+    border: 0;
+    min-height: 30rem;
+  
+    
 }
+
+
 
  .cards {
     

@@ -165,7 +165,7 @@
         margin: 0;
     }
 
-    .map {
+    iframe container map {
         width: 100%;
         height: auto;
         padding: 20px;

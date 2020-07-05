@@ -19,7 +19,7 @@ fetch(requestURL)
         }
 
 
-        document.getElementById("pEvents").innerHTML = event_list;
+        document.getElementById("fhEvents").innerHTML = event_list;
 
 
     })

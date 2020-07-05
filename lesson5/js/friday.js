@@ -3,5 +3,5 @@
      document.getElementById('pancakes').style.display='block';
  }
  else (
-     document.getElementById('pancakes').style.display = 'block';
- ) 
+     document.getElementById('pancakes').style.display = 'block');
+ 

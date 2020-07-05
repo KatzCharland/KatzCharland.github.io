@@ -146,13 +146,14 @@
     .contactInfo {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 5px 0 5px 20px;
     }
 
 
     .contact_info {
         display: block;
         text-align: center;
-        padding: 5px 0 5px 20px;
+        
 
     }
 

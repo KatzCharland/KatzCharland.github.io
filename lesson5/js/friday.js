@@ -4,4 +4,3 @@
  }
  else (
      document.getElementById('pancakes').style.display = 'block');
- 

@@ -19,7 +19,7 @@ fetch(requestURL)
         }
                                                                
                    
-        document.querySelector('.towns').appendChild(event_list);
+        document.getElementById("pEvents").innerHTML=events_list;
 
                     
     })

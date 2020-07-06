@@ -1,9 +1,7 @@
-  let today = new Date();
- if (today.getDate() == 5){
-     document.getElementById('pancakes').style.display='show';
- }
- else (
-     document.getElementById('pancakes').style.display = 'block');
+if(dayName == 'Friday') {
+    document.getElementById("pancakes").innerHTML ="Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the City Park Pavilion.";
+    document.getElementById("pancakes").classList.add ("show");
+}
 
  
  

@@ -468,6 +468,7 @@ form label.top input:required:valid {
 .towns section {
     background-color: #7f8a9f;
    border: solid 2px salmon;
+   align-items: center;
 }
 .towns h1, townData h2, townData p  {
     text-align: center;

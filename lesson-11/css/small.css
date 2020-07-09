@@ -222,6 +222,19 @@ body {
 
 }
 
+.pEvents,
+.ssEvents,
+.fhEvents {
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: salmon;
+    border: #e9c46a solid 1px;
+    background: radial-gradient(#eee, #f4a261);
+    border: 1px solid #e76f51;
+    box-shadow: 0 0 15px #111;
+}
+
 .contactInfo {
     display: block;
     text-align: center;

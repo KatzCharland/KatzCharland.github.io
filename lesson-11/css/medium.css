@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 560px) {
  body {
      margin: 0 auto;
      max-width: 1060px
@@ -166,9 +166,9 @@
         margin: 0;
     }
 
-   .pEvents,
-   .ssEvents,
-   .fhEvents {
+   #pEvents,
+   #ssEvents,
+   #fhEvents {
        padding: 15px;
        margin-bottom: 15px;
        margin-top: 15px;

@@ -222,9 +222,9 @@ body {
 
 }
 
-.pEvents,
-.ssEvents,
-.fhEvents {
+#pEvents,
+#ssEvents,
+#fhEvents {
     padding: 15px;
     margin-bottom: 15px;
     margin-top: 15px;

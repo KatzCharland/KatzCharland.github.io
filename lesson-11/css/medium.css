@@ -166,7 +166,18 @@
         margin: 0;
     }
 
-   
+   .pEvents,
+   .ssEvents,
+   .fhEvents {
+       padding: 15px;
+       margin-bottom: 15px;
+       margin-top: 15px;
+       background-color: salmon;
+       border: rgb(4, 13, 145) solid 1px;
+       background: radial-gradient(#eee, salmon);
+       border: 1px solid rgb(10, 22, 186);
+       box-shadow: 0 0 15px #111;
+   }
  
    
    

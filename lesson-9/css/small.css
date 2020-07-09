@@ -57,9 +57,6 @@ header div section {
     text-align: left;
     border: solid rgba(190, 85, 14, .03);
 }
-h2 {
-    text-align: center;
-}
 
 
 nav {
@@ -269,7 +266,6 @@ picture img {
 
 ul {
     list-style-type: none;
-    width: 100%;
     padding: 0;
 
 }

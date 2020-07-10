@@ -93,6 +93,47 @@
         background-color: #ddd;
         color: black;
     }
+  /*copy*/
+
+
+ .nav {
+     overflow: hidden;
+     background-color: #939995;
+     position: relative;
+     display: flex;
+ }
+
+ .navigation li:nth-child(1) {
+     display: none;
+ }
+
+ .navigation li {
+     display: block;
+ }
+
+ /* Style navigation menu links */
+ .nav a {
+     color: white;
+     padding: 5px 5px;
+     text-decoration: none;
+     font-size: 12px;
+     display: block;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .clan {
         display: flex;

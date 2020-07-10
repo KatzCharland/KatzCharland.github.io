@@ -13,6 +13,7 @@
         background-color: #939995;
         position: relative;
         display: flex;
+        max-width: 1060px;
 
     }
 

@@ -115,7 +115,7 @@ nav {
     display: block;
     text-decoration: none;
     width: 100%;
-    
+
 }
 
 .navigation li {
@@ -206,7 +206,7 @@ body {
 #pancakes.appear {
     display: block;
     text-align: center;
-    margin: 71px 0;
+    margin: 0;
 }
 
 #pancakes {
@@ -215,6 +215,9 @@ body {
 
 }
 
+#pancake h1 {
+    font-size: 1.5em;
+}
 #pEvents,
 #ssEvents,
 #fhEvents {

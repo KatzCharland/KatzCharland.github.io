@@ -5,6 +5,7 @@
     nav ul {
         display: flex;
         justify-content: space-around;
+        text-align: center;
     }
 
 
@@ -24,6 +25,7 @@
 
     .navigation li {
         display: block;
+        text-align: center;
     }
 
 

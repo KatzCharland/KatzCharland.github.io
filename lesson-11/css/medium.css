@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5) {
+@media only screen and (min-width: 32.5em) {
  body {
      margin: 0 auto;
      max-width: 1060px
@@ -119,17 +119,6 @@
      font-size: 12px;
      display: block;
  }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

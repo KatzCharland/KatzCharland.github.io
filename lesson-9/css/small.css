@@ -328,10 +328,8 @@ nav ul li a {
     display: block;
     background-color: rgba(119, 113, 113, 03);
     color: black;
-    border-left: 1px solid #777;
-    padding: .5rem 0;
-    text-decoration: none;
-    font-size: .9rem;
+    border-left: 1px solid #777; 
+    text-decoration: none; 
     text-align: center;
 }
 

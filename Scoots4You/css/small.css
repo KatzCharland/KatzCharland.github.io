@@ -1,2 +1,11 @@
 font-family: 'Martel', serif;
 font-family: 'Rajdhani', sans-serif;
+slogan {
+    position: relative;
+    line-height: 1;
+    padding-top: 5px;
+    font-size: 7em;
+    font-style: italic;
+    color: #002DBD;
+
+}

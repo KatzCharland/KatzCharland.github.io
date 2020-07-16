@@ -66,11 +66,54 @@ slogan {
       
 }
 
-.navigation li:nth-child(1) {
-    display: block;
-    text-decoration: none;
-    width: 100%;
+.navigation {
+    display: flex;
+    flex-direction: column;
 }
+
+.navigation li {
+    display: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 2%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.navigation a:hover {
+    color: #e9c46a;
+}
+
+.responsive li {
+    display: block;
+}
+
+.navigation active a {
+    background-color: #e9c46a;
+    color: black
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 nav {

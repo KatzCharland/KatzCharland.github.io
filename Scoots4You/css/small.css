@@ -39,19 +39,19 @@ slogan {
 #SLIDER_BG {
     width: 100%;
     height: 100vh;
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
     animation: slideBG 8s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background-image: url('../img1.jpg');
+    background-image: src="images/img1-400.jpg";
 
 }
 
 @keyframes slideBG {
     0% {
-        background-image: src('../img/1-400.jpg');
+        background-image: src='images/img1-400.jpg';
     }
     25% {
         background-image: src('../img/2-400.jpg');
@@ -66,6 +66,28 @@ slogan {
         
 }
 
+nav {
+    margin: 0 auto;
+    color: white;
+    background-color: #264653;
+    box-shadow: 0 2px 15px #264653;
+    list-style: none;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #e9c46a;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
 .summary-scenerios {
     position: absolute;
     font-size: .75em;

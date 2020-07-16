@@ -94,33 +94,6 @@ slogan {
     display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav {
     margin: 0 auto;
     color: white;
@@ -129,9 +102,8 @@ nav {
     list-style: none;
     overflow: hidden;
 }
-nav h2 {
-    color: black;
-}
+
+
 nav button {
     margin: .2rem 2%;
     background-color: transparent;

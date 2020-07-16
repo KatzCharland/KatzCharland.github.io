@@ -2,27 +2,25 @@
 body{
    background-color:#F3F7F0;
 }
+
 .curved {
 text-align: left;
 font-family: 'Rajdhani', sans-serif;
 color: #002DBD;
 }
 
-
-
 h1 { 
     font-family: 'Rajdhani', sans-serif;
     color: #002DBD;
 }
+
 h2, h3, h4 {
     font-family: 'Martel', serif;
 }
 
  .logo {
-   display: flex;
-   
-    
-     margin: 10px
+   display: flex; 
+     margin: 10px;
      height: 60px;
      border-radius: 12px;
  }
@@ -96,10 +94,17 @@ slogan {
     display: block;
 }
 
-.navigation active a {
-    background-color: #e9c46a;
-    color: black
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -140,8 +145,28 @@ nav ul {
     padding: 0;
     margin: 0;
     text-decoration: none;
-}
-.summary-scenerios {
+ }
+
+ .navigation active a {
+     background-color: #e9c46a;
+     color: black
+ }
+
+ .clan {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: #f5823e;
+ }
+
+ .col-head {
+     display: flex;
+     flex-wrap: wrap;
+     align-content: flex-start;
+
+ }
+
+ .summary-scenerios {
     position: absolute;
     font-size: .75em;
     border: 1px solid lightblue;
@@ -150,9 +175,8 @@ nav ul {
     top: 20px;
     left: 15px;
     background: #ffffff5e;
-    box-shadow: 0 0 15px rgb(190, 85, 14);
- 
-}
+    box-shadow: 0 0 15px rgb(190, 85, 14); 
+ }
  
  .summary-scenerios p {
      margin: 0;
@@ -172,7 +196,8 @@ nav ul {
 
 
 
-.responsive {
+ .responsive {
     width: 100%;
     height: auto;
+ }
 }

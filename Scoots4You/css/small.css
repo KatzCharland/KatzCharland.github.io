@@ -1,9 +1,32 @@
-font-family: 'Martel', serif;
+body{
+   background-color:#F3F7F0;
+}
+.curved {
+text-align: left;
 font-family: 'Rajdhani', sans-serif;
+color: #002DBD;
+}
+
+
+
+h1 { 
+    font-family: 'Rajdhani', sans-serif;
+    color: #002DBD;
+}
+h2, h3, h4 {
+    font-family: 'Martel', serif;
+}
+
+ .logo {
+     margin: 10px;
+     height: 60px;
+     border-radius: 12px;
+ }
+
+
 slogan {
     position: relative;
     line-height: 1;
-    padding-top: 5px;
     font-size: 7em;
     font-style: italic;
     color: #002DBD;

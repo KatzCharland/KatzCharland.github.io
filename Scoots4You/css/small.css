@@ -3,11 +3,16 @@ body{
    background-color:#F3F7F0;
 }
 
-.curved {
-text-align: left;
-font-family: 'Rajdhani', sans-serif;
-color: #002DBD;
+.container {
+    text-align: center;
 }
+
+div.circTxt {
+    display: inline-block;
+    margin-bottom: 128px;
+    color: #002DBD;
+}
+
 
 h1 { 
     font-family: 'Rajdhani', sans-serif;

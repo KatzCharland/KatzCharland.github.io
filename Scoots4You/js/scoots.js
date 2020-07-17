@@ -18,7 +18,7 @@ var deg = 360 / txt.length,
     });
 }
 
-circularText("Scoot's 4 You", 100, 0);
+circularText("Scoot's 4 You", 32.7, 50);
 
   
 

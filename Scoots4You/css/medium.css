@@ -76,7 +76,25 @@
 
   }
 
-  
+ @keyframes slideBG {
+     0% {
+         background-image: url('../images/img1-400.jpg');
+     }
+
+     25% {
+         background-image: url('../images/img2-400.jpg');
+     }
+
+     50% {
+         background-image: url('../images/img3-400.jpg');
+     }
+
+     75% {
+         background-image: url('../images/img4-400.jpg');
+     }
+
+ }
+ 
   
   
   

@@ -16,6 +16,7 @@
      display: inline-block;
      margin-bottom: 128px;
      color: #002DBD;
+     font-size: x-large;
  }
 
 
@@ -49,14 +50,6 @@
 
  }
    
-
-
-
-
-
-
-
- 
  
  
     #sliderImg {
@@ -93,27 +86,9 @@
          background-image: url('../images/img4-400.jpg');
      }
 
- }
+  }
  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
   
     nav button {
       display: none;

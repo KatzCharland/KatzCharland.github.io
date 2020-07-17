@@ -54,7 +54,7 @@ slogan {
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
-    animation: slideBG 8s linear infinite 0s;
+    animation: slideBG 8s linear 0s infinite;
     animation-timing-function: ease-in-out;
     background-image: url("../images/img1-400.jpg");
 

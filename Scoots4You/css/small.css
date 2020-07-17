@@ -48,10 +48,9 @@ slogan {
 }
 
 #SLIDER_BG {
-    width: 400px;
+    width: 100%;
     height: 300px;
     background-position: center center;
-    background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
     animation: slideBG 8s linear 0s infinite;

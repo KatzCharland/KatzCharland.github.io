@@ -27,7 +27,7 @@ h2, h3, h4 {
 
  .logo {
    display: flex; 
-     margin: 10px;
+     margin: 10px auto;
      height: 60px;
      border-radius: 12px;
  }
@@ -36,6 +36,7 @@ h2, h3, h4 {
 slogan {
     position: relative;
     line-height: 1;
+    text-align: center;
     font-size: 4em;
     font-style: italic;
     color: #002DBD;
@@ -167,7 +168,12 @@ nav ul {
  
  
  
-
+ .flex-col {
+    display: flex;
+    background-color: #d6ffb7;
+    padding: 5px;
+    justify-content: center;
+  }
 
 
  

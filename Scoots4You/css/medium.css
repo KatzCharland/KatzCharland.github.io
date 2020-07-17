@@ -39,28 +39,29 @@
       
    }
 
-.data {
+  .data {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
     flex-direction: column;
     text-align: center;
     padding: 5px;
-}
+  }
 
-.fiveday {
+  .fiveday {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     padding: 5px;
     box-shadow: 0 0 10px #264653;
-}
+  }
 
-.flex-col {
+  .flex-col {
     display: flex;
     background-color: #d6ffb7;
     padding: 5px;
-}
+    justify-content: center;
+  }
 
 
 

@@ -12,4 +12,4 @@ function circularText(txt, radius, classIndex) {
     });
 }
 
-circularText("Scoot's 4 You ", 100, 0);
+circularText("4 You               Scoot's ", 100, 0);

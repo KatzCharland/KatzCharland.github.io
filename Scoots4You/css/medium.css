@@ -137,10 +137,9 @@
        font-size: 12px;
        display: block;
   }
-
-   .navigation li:nth-child(1){          
-       display: none;
-   }
+    .navigation li:nth-child(1) {
+      display: none;
+}
 
    .clan {
        display: flex;
@@ -170,6 +169,7 @@
     flex-wrap: wrap;
     text-align: center;
     padding: 5px;
+    border: 1px solid #002DBD;
     box-shadow: 0 0 10px #264653;
   }
 

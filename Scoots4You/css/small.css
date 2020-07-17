@@ -13,6 +13,7 @@ div.circTxt {
     display: inline-block;
     margin-bottom: 128px;
     color: #002DBD;
+    font-size: x-large;
 }
 
 
@@ -37,7 +38,7 @@ h2, h3, h4 {
     position: relative;
     line-height: 1;
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
     font-style: italic;
     color: #002DBD;
 

@@ -2,7 +2,7 @@ function circularText(txt, radius, classIndex) {
     txt = txt.split(""),
         classIndex = document.getElementsByClassName("circTxt")[classIndex];
 
-    var deg = 360 / txt.length,
+    var deg = 180 / txt.length,
         origin = 270;
 
     txt.forEach((ea) => {
@@ -12,4 +12,4 @@ function circularText(txt, radius, classIndex) {
     });
 }
 
-circularText("Scoot's 4 You ", 100, 0);
+circularText("Scoot's 4 You", 100, 0);

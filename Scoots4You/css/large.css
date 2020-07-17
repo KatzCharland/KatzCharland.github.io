@@ -1,5 +1,31 @@
 @media only screen and (min-width: 64em) {
-    
+    body {
+        background-color: #F3F7F0;
+        max-width: 1060;
+    }
+
+    .container {
+        text-align: center;
+        font-weight: 500;
+        font-size: larger;
+
+    }
+  div.circTxt {
+      display: inline-block;
+      margin-bottom: 128px;
+      color: #002DBD;
+      font-size: x-large;
+  }
+
+
+
+
+
+
+
+
+
+ 
   
     nav button {
         display: none;

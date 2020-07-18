@@ -89,7 +89,7 @@ h2, h3, h4 {
     display: none;
 }
 
-.navigation li:first-child {
+.navigation li:nth-child {
     display: block;
 }
 

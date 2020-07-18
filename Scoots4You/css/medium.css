@@ -23,8 +23,28 @@
      display: inline-block;
      margin-bottom: 128px;
      color: #002DBD;
-     font-size: x-large;
+     font-size: 150%;
  }
+
+  .logo {
+      display: flex;
+      margin: 10px auto;
+      height: 60px;
+      border-radius: 12px;
+  }
+
+
+  slogan {
+      position: relative;
+      line-height: 1;
+      text-align: center;
+      font-size: 4em;
+      font-style: italic;
+      color: #002DBD;
+      display: block;
+
+  }
+
 
 
  h1 {
@@ -38,25 +58,6 @@
      font-family: 'Martel', serif;
  }
 
- .logo {
-     display: flex;
-     margin: 10px auto;
-     height: 60px;
-     border-radius: 12px;
- }
-
-
- slogan {
-     position: relative;
-     line-height: 1;
-     text-align: center;
-     font-size: 4em;
-     font-style: italic;
-     color: #002DBD;
-     display: block;
-
- }
-   
  
  
   #sliderImg {
@@ -94,9 +95,7 @@
      }
 
   }
-
  
-  
 
   .navigation {
       display: flex;
@@ -114,11 +113,70 @@
        padding: 5px 5px;
        text-decoration: none;
        font-size: 12px;
-       display: block;
+       
   }
     .navigation li:first-child {
-      display: none;
+       display: none;
 }
+
+    .navigation a:hover {
+        color: #e9c46a;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    .navigation active a {
+        background-color: #e9c46a;
+        color: black
+    }
+
+    nav {
+        margin: 0 auto;
+        color: white;
+        background-color: #a93e82;
+        box-shadow: 0 2px 15px #0e3e8f;
+        list-style: none;
+        overflow: hidden;
+}
+
+    nav button {
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: #e9c46a;
+}
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        display: flex;
+    } 
+
+     nav li {
+         flex: 1 1 100%;
+     }
+        
+
+ .summary-scenerios {
+     position: absolute;
+     font-size: .75em;
+     border: 1px solid lightblue;
+     border-radius: 20px;
+     box-shadow: 0 0 15px rgb(190, 85, 14);
+     top: 20px;
+     left: 15px;
+     background: #ffffff5e;
+     box-shadow: 0 0 15px rgb(190, 85, 14);
+ }
+
+ .summary-scenerios p {
+     margin: 0;
+ }
 
    .clan {
        display: flex;

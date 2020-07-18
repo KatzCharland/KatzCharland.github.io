@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 950px) {
     body {
         background-color: #F3F7F0;
         max-width: 1060;
@@ -19,14 +19,7 @@
 
 
 
-
-
-
-
-
-
  
-  
     nav button {
         display: none;
     }    

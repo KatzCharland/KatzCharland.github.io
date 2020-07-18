@@ -141,10 +141,6 @@ nav ul {
  }
 
 
-
-
-
-
  .summary-scenerios {
     position: absolute;
     font-size: .75em;
@@ -162,7 +158,7 @@ nav ul {
  }
  
  
- /*.clan {
+ .clan {
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -184,7 +180,7 @@ nav ul {
     justify-content: center;
   }
 
-*/
+
  .responsive {
     width: 100%;
     height: auto;

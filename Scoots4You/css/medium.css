@@ -8,9 +8,9 @@
        width: 100%;
    }
 
-       nav button {
-           display: none;
-       }
+     
+     
+     
 
    .container {
        text-align: center;
@@ -139,7 +139,11 @@
         box-shadow: 0 2px 15px #0e3e8f;
         list-style: none;
         overflow: hidden;
-}
+    }
+   
+    nav button {
+          display: none;
+    }
 
     nav button {
         margin: .2rem 2%;
@@ -147,7 +151,7 @@
         border: none;
         font-size: 1.6rem;
         color: #e9c46a;
-}
+    }
 
     nav ul {
         list-style-type: none;
@@ -159,7 +163,7 @@
 
      nav li {
          flex: 1 1 100%;
-     }
+    }
         
 
  .summary-scenerios {

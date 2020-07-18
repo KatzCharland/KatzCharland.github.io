@@ -9,7 +9,7 @@ body{
     
 }
 
-div.circTxt {
+#circTxt {
     display: inline-block;
     margin-bottom: 128px;
     color: #002DBD;
@@ -176,7 +176,7 @@ nav ul {
  .flex-col {
     display: flex;
     background-color: #d6ffb7;
-    padding: 5px;
+    padding: 2px;
     justify-content: center;
   }
 

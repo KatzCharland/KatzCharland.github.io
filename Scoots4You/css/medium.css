@@ -4,6 +4,13 @@
        background-color: #F3F7F0;
        max-width: 1060;
    }
+   header img {
+       width: 100%;
+   }
+
+       nav button {
+           display: none;
+       }
 
    .container {
        text-align: center;
@@ -12,7 +19,7 @@
 
    }
  
- div.circTxt {
+   .circTxt {
      display: inline-block;
      margin-bottom: 128px;
      color: #002DBD;
@@ -52,7 +59,7 @@
    
  
  
-    #sliderImg {
+  #sliderImg {
       text-align: center;
       width: 100%;
   }
@@ -87,12 +94,9 @@
      }
 
   }
- 
+
  
   
-    nav button {
-      display: none;
-  }
 
   .navigation {
       display: flex;
@@ -112,7 +116,7 @@
        font-size: 12px;
        display: block;
   }
-    .navigation li:nth-child(1) {
+    .navigation li:first-child {
       display: none;
 }
 

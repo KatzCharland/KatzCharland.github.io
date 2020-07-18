@@ -9,7 +9,7 @@ body{
     
 }
 
-#circTxt {
+.circTxt {
     display: inline-block;
     margin-bottom: 128px;
     color: #002DBD;

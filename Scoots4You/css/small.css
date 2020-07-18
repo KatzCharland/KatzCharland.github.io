@@ -89,7 +89,7 @@ h2, h3, h4 {
     display: none;
 }
 
-.navigation li:nth-child {
+.navigation li:first-child {
     display: block;
 }
 
@@ -109,6 +109,11 @@ h2, h3, h4 {
 .responsive li {
     display: block;
 }
+
+ .navigation active a {
+     background-color: #e9c46a;
+     color: black
+ }
 
 nav {
     margin: 0 auto;
@@ -135,10 +140,10 @@ nav ul {
     text-decoration: none;
  }
 
- .navigation active a {
-     background-color: #e9c46a;
-     color: black
- }
+
+
+
+
 
  .summary-scenerios {
     position: absolute;

@@ -5,13 +5,11 @@
        max-width: 1060;
    }
    header img {
-       width: 100%;
+       width: 10%;
+       align-content: center;
    }
 
-     
-     
-     
-
+    
    .container {
        text-align: center;
        font-weight: 500;
@@ -47,14 +45,14 @@
 
 
 
- h1 {
+    h1 {
      font-family: 'Rajdhani', sans-serif;
      color: #002DBD;
  }
 
- h2,
- h3,
- h4 {
+    h2, 
+    h3, 
+    h4 {
      font-family: 'Martel', serif;
  }
 

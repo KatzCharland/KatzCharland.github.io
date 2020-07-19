@@ -2,6 +2,16 @@
 body{
    background-color:#F3F7F0;
 }
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    color: #002DBD;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Martel', serif;
+}
 
 .container {
     text-align: center;
@@ -16,21 +26,11 @@ body{
     font-size: xx-large;
 }
 
-
-h1 { 
-    font-family: 'Rajdhani', sans-serif;
-    color: #002DBD;
-}
-
-h2, h3, h4 {
-    font-family: 'Martel', serif;
-}
-
 .logo {
-   display: flex; 
-     margin: 10px auto;
-     height: 64px;
-     border-radius: 12px;
+   display: flex;
+   margin: 10px auto;
+   height: 64px;
+   border-radius: 12px;
  }
 
 

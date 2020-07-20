@@ -23,7 +23,7 @@
      display: inline-block;
      margin-bottom: 128px;
      color: #002DBD;
-     font-size: 150%;
+     font-size: xx-large;
     }
 
   .logo {
@@ -209,9 +209,17 @@
      padding: 5px;
     }
 
-   .forecast {
-     display: flex;
-     flex-wrap: wrap;
+.wicon {
+    width: 100%;
+}
+
+forecast h2 {
+    text-align: center;
+    font-size: large;
+}
+
+}
+   .forecast { 
      text-align: center;
      padding: 5px;
      border: 1px solid #002DBD;

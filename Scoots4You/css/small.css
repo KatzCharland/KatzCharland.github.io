@@ -194,16 +194,16 @@ nav ul {
 }
 
 footer {
-    background-color: #d6ffb7;
-    color: black;
+    background-color: #a93e82;
+    color: white;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    border-radius: 25px;
+    
 }
 
 footer h4{
    font-family: 'Martel', serif;
-   text-size: small;
+   text: small;
     
 }

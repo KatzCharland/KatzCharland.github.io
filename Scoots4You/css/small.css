@@ -1,6 +1,7 @@
 
 body{
    background-color:#F3F7F0;
+   margin: 0;
 }
 h1 {
     font-family: 'Rajdhani', sans-serif;
@@ -204,6 +205,6 @@ footer {
 
 footer h4{
    font-family: 'Martel', serif;
-   text: small;
+   font-size: small;
     
 }

@@ -1,0 +1,94 @@
+{
+  "rentals": [
+    {
+      "name": "Honda Metro Scooter",
+      "photo": "franklin.jpg",
+      "maxPerson": "1",
+      "reservation": [ 
+      "halfDay": "$20.00",
+      "fullDay": "$30.00",
+      ]
+      },
+      "walkIn": [
+        "halfDay": "$25.00",
+        "fullDay", "$35.00",
+      ]
+    },
+    {
+      "name": "Honda Dio Scooter",
+      "photo": "fishhaven.jpg",
+      "maxPerson": "2",
+      "reservation": [ 
+      "halfDay": "$30.00",
+      "fullDay": "$40.00",
+      ]
+      },
+      "walkIn": [
+        "halfDay": "$35.00",
+        "fullDay", "$45.00",
+      ]
+    },
+
+    {
+      "name": "Honda PCX150 Scooter",
+      "photo": "greenville.jpg",
+      "maxPerson": "1",
+      "reservation": [ 
+      "halfDay": "$40.00",
+      "fullDay": "$50.00",
+      ]
+      },
+      "walkIn": [
+        "halfDay": "$45.00",
+        "fullDay", "$55.00",
+      ]
+    },
+    },
+    {
+      "name": "Honda Pioneer ATV",
+      "photo": "placerton.jpg",
+      "maxPerson": "4",
+      "reservation": [ 
+      "halfDay": "$50.00",
+      "fullDay": "$70.00",
+      ]
+      },
+      "walkIn": [
+        "halfDay": "$60.00",
+        "fullDay", "$80.00",
+      ]
+    },
+ 
+    {
+      "name": "Jeep Wranger-4 door with a/c",
+      "photo": "preston.jpg",
+      "photo": "placerton.jpg",
+      "maxPerson": "5",
+      "reservation": [ 
+      "halfDay": "$70.00",
+      "fullDay": "$100.00",
+      ]
+      },
+      "walkIn": [
+        "halfDay": "$85.00",
+        "fullDay", "$125.00",
+      ]
+    },
+    {
+      "name": "Jeep Wrangler-2 door",
+      "photo": "sodasprings.jpg",
+      "maxPerson": "4",
+      "reservation": [ 
+      "halfDay": "$60.00",
+      "fullDay": "$85.00",
+      ]
+      },
+      "walkIn": [
+        "halfDay": "$70.00",
+        "fullDay", "$90.00",
+      ]
+    },
+ 
+   
+  ]
+}

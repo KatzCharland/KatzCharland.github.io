@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'Scoots4You/data/rentals.json';
 
 fetch(requestURL)
     .then(function (response) {
@@ -6,10 +6,10 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject); // temporary checking for valid response and data parsing
-        const towns = jsonObject['towns'];
+        const rentals = jsonObject['Rentals'];
             //Creating elements and content
-        for (let i = 0; i < towns.length; i++) {
-            if (towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven"){
+        for (let i = 0; i < rentals.length; i++) {
+            if (towns[i].name == "el Centro" || rentals[i].name == "Soda Springs" || towns[i].name == "Fish Haven"){
            
             //Creating image section
             let card = document.createElement('section');

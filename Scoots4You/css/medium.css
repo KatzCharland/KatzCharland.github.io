@@ -209,16 +209,16 @@
      padding: 5px;
     }
 
-.wicon {
-    width: 100%;
+    .wicon {
+            width: 100%;
 }
 
-forecast h2 {
+        forecast h2 {
     text-align: center;
     font-size: large;
 }
 
-}
+
    .forecast { 
      text-align: center;
      padding: 5px;

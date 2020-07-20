@@ -27,6 +27,11 @@ h4 {
     font-size: xx-large;
 }
 
+#icon {
+    text-align: center;
+    width: 100%;
+}
+
 .logo {
    display: flex;
    margin: 10px auto;
@@ -161,8 +166,17 @@ nav ul {
      margin: 0;
 }
 
+.forecast {
+     text-align: center;
+}
+
 .forecast h2{
     text-align: center;
+    font-size: medium;
+}
+
+.wicon {
+    width: 75%;
 }
  
 .clan {
@@ -200,11 +214,7 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    
-}
-
-footer h4{
-   font-family: 'Martel', serif;
-   font-size: small;
-    
+    font-size: 15px;
+    font-family: 'Martel', serif;
+    margin-top: 10px;
 }

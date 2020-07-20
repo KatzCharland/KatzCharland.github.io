@@ -6,7 +6,9 @@
    }
    header img {
        width: 10%;
-       align-content: center;
+       position: relative;
+       left: 50px;
+
    }
 
     
@@ -29,6 +31,8 @@
       margin: 10px auto;
       height: 60px;
       border-radius: 12px;
+      position: absolute;
+
   }
 
 
@@ -40,8 +44,9 @@
       font-style: italic;
       color: #002DBD;
       display: block;
+      
 
-  }
+     }
 
 
 
@@ -179,6 +184,9 @@
  .summary-scenerios p {
      margin: 0;
  }
+.forecast h2 {
+    text-align: center;
+}
 
    .clan {
        display: flex;

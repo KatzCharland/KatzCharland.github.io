@@ -33,7 +33,7 @@ h4 {
    border-radius: 12px;
    position: relative;
    left: 50px;
- }
+}
 
 
 #slogan {
@@ -112,10 +112,10 @@ h4 {
     display: block;
 }
 
- .navigation active a {
-     background-color: #e9c46a;
-     color: black
- }
+.navigation active a {
+    background-color: #e9c46a;
+    color: black;
+}
 
 nav {
     margin: 0 auto;
@@ -141,10 +141,10 @@ nav ul {
     margin: 0;
     text-decoration: none;
     list-style: none;
- }
+}
 
 
- .summary-scenerios {
+.summary-scenerios {
     position: absolute;
     font-size: .75em;
     border: 1px solid lightblue;
@@ -154,37 +154,56 @@ nav ul {
     left: 15px;
     background: #ffffff5e;
     box-shadow: 0 0 15px rgb(190, 85, 14); 
- }
+}
  
- .summary-scenerios p {
+.summary-scenerios p {
      margin: 0;
- }
- 
- 
- .clan {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     color: #f5823e;
- }
+}
 
- .col-head {
-     display: flex;
-     flex-wrap: wrap;
-     align-content: flex-start;
+.forecast h2{
+    text-align: center;
+}
+ 
+.clan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f5823e;
+}
 
- }
+.col-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
 
  
- .flex-col {
+.flex-col {
     display: flex;
     background-color: #d6ffb7;
     padding: 2px;
     justify-content: center;
-  }
+   
+}
 
 
- .responsive {
+.responsive {
     width: 100%;
     height: auto;
- }
+}
+
+footer {
+    background-color: #d6ffb7;
+    color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+footer h4{
+   font-family: 'Martel',
+   serif;
+    
+}

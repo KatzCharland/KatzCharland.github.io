@@ -37,7 +37,7 @@ fetch(apiURLforecast)
     .then((jsObject) => {
         console.log(jsObject);
 
-        const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'))
+        const fivedayforecast = jsObject.list.filter(x => x.dt_txt.includes('12:00:00'))
 
 
         const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];

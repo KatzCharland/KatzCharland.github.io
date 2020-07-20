@@ -148,6 +148,10 @@ nav ul {
     text-decoration: none;
     list-style: none;
 }
+ul li: hover {
+    background: #0e3e8f;
+    font-weight: bold;
+}
 
 
 .summary-scenerios {

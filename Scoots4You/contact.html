@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <meta name="description" content="Scoot's Skooter Rental Plus">
+    <meta name="description" content="Contact us from Scoot's 4 You">
     <link href="https://fonts.googleapis.com/css2?family=Martel:wght@600&family=Rajdhani:wght@600&display=swap"
             rel="stylesheet">
     <link rel="smallIcon" type="image/png" href="images/favicon.png">
@@ -17,52 +17,91 @@
 
 <body>
    
-          <header>
-              <div class="container">
-                  <div class="circTxt" id="test"></div>
-              </div>
+    <header>
+        <div class="container">
+           <div class="circTxt" id="test"></div>
+        </div>
 
-             <div id="icon"><img class="icon" src="images/scooter-64.png" alt="scooter logo" /></div>
+        <div id="icon"><img class="icon" src="images/scooter-64.png" alt="scooter logo" /></div>
 
-            <div id="slogan">
-                <h3> Anywhere and Everywhere</h3>
-            </div>
-
-        
-        
-
+        <div id="slogan">
+            <h3> Anywhere and Everywhere</h3>
+        </div>
     </header>
 
-   <form method="get" action="thanks.html">
+        <nav>
+
+            <ul class="navigation">
+                <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776;
+                        Menu</a></li>
+                <li><a class="active" href="../Scoots4You/scoots.html">Home</a></li>
+                <li><a class="#" href="../Scoots4You/rentals.html">Our Fleet</a></li>
+                <li><a class="#" href="../Scoots4You/reservations.html">Reservations</a></li>
+                <li><a class="active" href="../Scoots4You/contact.html">Contact Us</a></li>
+                <li><a class="#" href="../Scoots4You/resourcs.html">Resources</a></li>
+            </ul>
+
+        </nav>
+
+
+
+
+    <form method="get" action="thanks.html">
+            <br>
+        <div class="stars">
+            <input type="radio" name="star" class="star-1" id="star-1" />
+            <label class="star-1" for="star-1">1</label>
+            <input type="radio" name="star" class="star-2" id="star-2" />
+            <label class="star-2" for="star-2">2</label>
+            <input type="radio" name="star" class="star-3" id="star-3" />
+            <label class="star-3" for="star-3">3</label>
+            <input type="radio" name="star" class="star-4" id="star-4" />
+            <label class="star-4" for="star-4">4</label>
+            <input type="radio" name="star" class="star-5" id="star-5" />
+            <label class="star-5" for="star-5">5</label>
+            <span></span>
+        </div>
+    </form>        
+
+    <form>      
+   
        <fieldset>
            <legend>Your Information</legend>
            <label class="top">Full Name:*<input type="text" name="fullname"
                    title="Only Letters, No more than 15 characters" pattern="[A-Za-z\s]{3,}" required></label>
            <label class="top">Phone:*<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                    placeholder="123-555-1234" required></label>
-           <label class="top">Email:<input type="email" name="email" placeholder="someone@gmail.com"></label>
+           <label class="top">Email:*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
            <label class="top">ZipCode*<input type="text" pattern="[0-9]{5}" title="Five digit zip code"
                    required></label>
        </fieldset>
        <br>
-  
-  
-  
- 
- 
- 
 
+        <fieldset>
+            <legend>Additional Information</legend>
+            <label>Enter observations or comments below:<br><br><textarea name="comments"
+                     class="space"></textarea></label>
+         </fieldset>
+            
+          <br>
  
-  
+                
 
- 
- 
- 
- 
-          
-   
+              <input type="submit" value="Contact Us" class="submitBtn">
 
-  
+
+    </form>
+
+
+
+
+
+  <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239283.1392312648!2d-87.01468340185151!3d20.43234899955321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1595337616408!5m2!1sen!2sus"
+      width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+      tabindex="0"></iframe>
+ 
+ 
 
 </body>
 </html>

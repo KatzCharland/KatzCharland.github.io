@@ -9,7 +9,7 @@ fetch(requestURL)
         const rentals = jsonObject['Rentals'];
             //Creating elements and content
         for (let i = 0; i < rentals.length; i++) {
-            if (towns[i].name == "el Centro" || rentals[i].name == "Soda Springs" || towns[i].name == "Fish Haven"){
+            if (rentals[i].name == "el Centro" || rentals[i].name == "Soda Springs" || towns[i].name == "Fish Haven"){
            
             //Creating image section
             let card = document.createElement('section');

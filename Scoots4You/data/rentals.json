@@ -2,11 +2,11 @@
   "rentals": [
     {
       "name": "Honda Metro Scooter",
-      "photo": "franklin.jpg",
+      "photo": "metro.jpg",
       "maxPerson": "1",
       "reservation": [ 
       "halfDay": "$20.00",
-      "fullDay": "$30.00",
+      "fullDay": "$30.00"
       ]
       },
       "walkIn": [

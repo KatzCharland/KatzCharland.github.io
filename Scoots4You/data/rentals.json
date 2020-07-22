@@ -16,7 +16,7 @@
     },
     {
       "name": "Honda Dio Scooter",
-      "photo": "fishhaven.jpg",
+      "photo": "dio.jpg",
       "maxPerson": "2",
       "reservation": [ 
       "halfDay": "$30.00",
@@ -31,7 +31,7 @@
 
     {
       "name": "Honda PCX150 Scooter",
-      "photo": "greenville.jpg",
+      "photo": "PCX150.jpg",
       "maxPerson": "1",
       "reservation": [ 
       "halfDay": "$40.00",
@@ -46,7 +46,7 @@
     
     {
       "name": "Honda Pioneer ATV",
-      "photo": "placerton.jpg",
+      "photo": "pioneer.jpg",
       "maxPerson": "4",
       "reservation": [ 
       "halfDay": "$50.00",
@@ -61,7 +61,7 @@
  
     {
       "name": "Jeep Wranger-4 door with a/c",
-      "photo": "preston.jpg",
+      "photo": "wrangler-4.jpg",
       "photo": "placerton.jpg",
       "maxPerson": "5",
       "reservation": [ 
@@ -76,7 +76,7 @@
     },
     {
       "name": "Jeep Wrangler-2 door",
-      "photo": "sodasprings.jpg",
+      "photo": "wrangler-2.jpg",
       "maxPerson": "4",
       "reservation": [ 
       "halfDay": "$60.00",

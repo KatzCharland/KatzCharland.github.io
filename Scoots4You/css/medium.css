@@ -299,83 +299,84 @@
     clear: both;
   }
 
-table,
-th,
-td {
-  border: solid 1px #B4B4B2;
-  border-collapse: collapse;
+  table,
+  th,
+  td {
+    border: solid 1px #B4B4B2;
+    border-collapse: collapse;
 
-  max-width: 100%;
-  padding: 8px;
-  text-align: center;
-  font-size: .75em;
-  font-weight: 300;
-}
-
-
-
-th {
-  background-color: #628ca6;
-}
-
-tr:nth-child(even) {
-  background-color: #e7f0ed;
-
-}
-
-tr:nth-child(odd) {
-  background-color: #e7ffed;
-}
-
-tr:nth-child(4) td:nth-child(3) {
-  color: black;
-
-}
+    max-width: 100%;
+    padding: 8px;
+    text-align: center;
+    font-size: .75em;
+    font-weight: 300;
+  }
 
 
-th {
-  background-color: #628ca6;
-}
 
-tr:nth-child(even) {
-  background-color: #e7f0ed;
+  th {
+    background-color: #628ca6;
+  }
 
-}
+  tr:nth-child(even) {
+    background-color: #e7f0ed;
 
-tr:nth-child(odd) {
-  background-color: #e7ffed;
-}
+  }
 
-tr:nth-child(4) td:nth-child(3) {
-  color: black;
+  tr:nth-child(odd) {
+    background-color: #e7ffed;
+  }
 
-}
-
-tfoot tr td {
-  background-color: #7fb9c2;
-  color: black;
-  text-align: center;
-  padding: 8px;
-  line-height: 1.5;
-  font-size: .50em;
-}
+  tr:nth-child(4) td:nth-child(3) {
+    color: black;
+  }
 
 
-thead tr th {
-  background-color: #628ca6;
-  color: white;
+  th {
+    background-color: #628ca6;
+  }
 
-}
+  tr:nth-child(even) {
+    background-color: #e7f0ed;
 
-body {
-  font-family: 'Ubuntu', sans-serif;
-  max-width: 400px;
-}
+  }
 
-caption {
-  background-color: #7fb9c2;
-  padding: 10px;
-  box-shadow: 10px 10px 15px #5e9097;
-  font-size: 1.5em;
-  font-weight: bold;
+  tr:nth-child(odd) {
+    background-color: #e7ffed;
+  }
+
+  tr:nth-child(4) td:nth-child(3) {
+    color: black;
+
+  }
+
+  tfoot tr td {
+    background-color: #7fb9c2;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    line-height: 1.5;
+    font-size: .50em;
+  }
+
+
+  thead tr th {
+    background-color: #628ca6;
+    color: white;
+
+  }
+
+  body {
+   font-family: 'Ubuntu', sans-serif;
+   max-width: 400px;
+  }
+
+  caption {
+    background-color: #7fb9c2;
+    padding: 10px;
+    box-shadow: 10px 10px 15px #5e9097;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
 }

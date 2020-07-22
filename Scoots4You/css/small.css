@@ -289,7 +289,10 @@ form label.top input:required:valid {
     display: table;
     clear: both;
 }
-
+.thumbnail img {
+    height: 250px;
+    width: 100%;
+}
 /*<style>img {
     border: 1px solid #ddd;
     /* Gray border */

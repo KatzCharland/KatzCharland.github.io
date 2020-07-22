@@ -2,7 +2,7 @@
   "rentals": [
     {
       "name": "Honda Metro Scooter",
-      "photo": "metro.jpg",
+      "photo": "metro_thumbnail.jpg",
       "maxPerson": "1",
       "reservation": [ 
       "halfDay": "$20.00",
